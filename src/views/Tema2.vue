@@ -15,7 +15,7 @@
           .row.mb-0
             .col-lg-12.col-12
               p.mb-4 El diagnóstico organizacional constituye el primer paso para fortalecer el desempeño de un equipo de trabajo. Antes de proponer cambios o diseñar un plan de acción, resulta indispensable conocer con claridad cómo funciona el equipo, qué factores favorecen sus resultados y cuáles los limitan. Este conocimiento evita las decisiones improvisadas y orienta los esfuerzos hacia lo que realmente necesita la organización.
-            .cajon.cajon.C01.px-4.py-4.mb-4
+            .cajon.cajon.C06.px-4.py-4.mb-4
               p.mb-0 En la gestión de las organizaciones colombianas, el diagnóstico cobra especial relevancia, pues los equipos operan en entornos cambiantes, con recursos limitados y exigencias crecientes de calidad. Realizarlo de manera rigurosa permite reconocer a tiempo las señales de alerta, como la baja productividad o la rotación del personal, y actuar con información y no con suposiciones. Así, el diagnóstico se convierte en la base de la planificación estratégica.
             
       .row.justify-content-center.mb-4
@@ -92,7 +92,6 @@
           h3.text-center Diagnóstico estratégico
           p Evalúa la posición competitiva de la organización y su direccionamiento a largo plazo. Analiza el entorno y las capacidades internas para orientar las decisiones de alto nivel y anticipar los retos del futuro.
 
-
       .row.justify-content-center.mb-4
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
@@ -113,11 +112,13 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Métodos y técnicas de diagnóstico organizacional
 
+            .recurso-titulo-equipo__barra
+
       p.mb-4 Una vez definido el tipo de diagnóstico, se requieren métodos y técnicas para recolectar la información. Estos procedimientos permiten obtener datos confiables sobre el funcionamiento del equipo y su entorno. Entre los más utilizados se encuentran:
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.px-4.py-3
+          .cajon.cajon.C05.px-4.py-3
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
@@ -140,6 +141,8 @@
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Proceso de diagnóstico organizacional
+
+            .recurso-titulo-equipo__barra
 
       p.mb-4 La aplicación del diagnóstico sigue una secuencia ordenada que garantiza resultados confiables y evita las conclusiones improvisadas. Cumplir cada etapa permite que la información recolectada se transforme en decisiones fundamentadas y en acciones concretas de mejora. En un equipo de trabajo, este orden facilita la participación de sus integrantes y asegura que cada hallazgo se sustente en datos verificables. Este proceso comprende las siguientes etapas:
 
@@ -198,7 +201,7 @@
 
       p.mb-4 El diagnóstico organizacional se caracteriza por ser un proceso sistemático, participativo y orientado a la toma de decisiones. Es sistemático porque sigue una metodología estructurada; participativo porque involucra a los miembros del equipo; y orientado a la acción porque busca generar cambios positivos en la organización. Estas características garantizan la validez y utilidad del diagnóstico.
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-4.recurso-diagnostico-sin-svg-console
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t2/img-16.png', alt='')
@@ -206,10 +209,10 @@
           .row.mb-0
             .cajon.cajon.C01.px-4.py-4.mb-4
               p.mb-0 Entre los elementos clave del diagnóstico se encuentran la recolección de información, el análisis de datos, la identificación de problemas y la formulación de recomendaciones. La calidad de estos elementos depende de la rigurosidad con que se apliquen las herramientas y técnicas seleccionadas. Además, es fundamental contar con fuentes de información confiables y variadas.
-            .col-lg-auto.d-none.d-lg-block
+            .col-lg-auto.d-none.d-lg-block.recurso-diagnostico-sin-svg-console__svg
               figure
                 img(src='@/assets/curso/temas/intro/img-02.svg', alt='')
-            .col-lg-10.col-12
+            .col-lg-10.col-12.recurso-diagnostico-sin-svg-console__texto
               p Otro elemento esencial es la interpretación de resultados, que permite transformar los datos en conocimiento útil. Esta interpretación debe considerar el contexto organizacional y los objetivos estratégicos, evitando conclusiones superficiales. Un diagnóstico bien estructurado facilita la planificación estratégica y contribuye al fortalecimiento del equipo de trabajo.
             
       p.mb-4 El diagnóstico organizacional presenta un conjunto de características que definen su rigor y su utilidad para el equipo de trabajo. Estas se describen a continuación:
@@ -241,7 +244,7 @@
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.color-secundario.px-4.py-3
+          .cajon.cajon.C05.color-secundario.px-4.py-3
             p.mb-0(data-aos="fade-down") En conjunto, estos elementos permiten obtener una visión completa del equipo y de su entorno. Al integrar el análisis interno, el externo y el del talento humano, el diagnóstico articula la información necesaria para comprender la realidad organizacional y orientar decisiones acertadas.
 
       .row.justify-content-center.mb-4
@@ -262,6 +265,8 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Elementos del diagnóstico organizacional
 
+            .recurso-titulo-equipo__barra
+
       p.mb-4 Existen varios elementos que permiten observar al equipo desde diferentes perspectivas y comprender su realidad de manera integral. Estos componentes abarcan la dinámica interna de la organización, las condiciones de su entorno y la gestión de su talento humano, y su análisis articulado garantiza una visión completa que evita las conclusiones parciales. Estos elementos se describen a continuación:
 
       .row.justify-content-center.mb-4
@@ -271,7 +276,7 @@
               .col-12.mb-0.mb-md-0
                 p consiste en examinar la estructura, los procesos, la cultura y los recursos con que cuenta el equipo, con el fin de comprender cómo funciona por dentro e identificar sus fortalezas y debilidades. Estudia la forma en que se organizan las áreas, cómo circula la información y cómo se toman las decisiones.
                 p.mb-0 #[b Ejemplo 1:] una cooperativa lechera de Nariño revisa cómo se coordinan sus asociados y cómo fluye la información entre ellos.
-                p.mb-0 #[b Ejemplo 2:] una empresa de software en Medellín analiza cómo distribuye las tareas y toma las decisiones entre sus desarrolladores.
+                p.mb-0 #[b Ejemplo 2:] una empresa de #[em software] en Medellín analiza cómo distribuye las tareas y toma las decisiones entre sus desarrolladores.
             .row(titulo="Análisis externo")
               .col-12.mb-0.mb-md-0
                 p competencia y los cambios legales, económicos, sociales y tecnológicos que pueden influir en su desempeño. Permite anticipar oportunidades y amenazas, y adaptar las decisiones a las condiciones del contexto.
@@ -305,7 +310,7 @@
         .col.col-lg-9.col-12.order-lg-2.order-2
           .row.mb-0
             p Las variables de análisis organizacional son los aspectos que se evalúan para comprender el funcionamiento de una organización. Estas variables pueden ser internas, como la cultura organizacional, el liderazgo, la comunicación y los procesos, o externas, como el entorno económico, social, tecnológico y político.
-            .cajon.cajon.C02.px-4.py-4.mb-4
+            .cajon.cajon.C05.px-4.py-4.mb-4
               p.mb-0 Identificar estas variables permite reconocer qué factores impulsan o limitan el desempeño del equipo. Ninguna actúa de forma aislada: la cultura influye en la comunicación, el liderazgo incide en la motivación y el entorno condiciona las decisiones. Por ejemplo, una comunicación deficiente puede generar conflictos, mientras que un liderazgo efectivo potencia la productividad; por ello, el análisis debe observar cómo se relacionan entre sí y no solo cada una por separado.
             .col-lg-auto.d-none.d-lg-block
               figure
@@ -348,23 +353,23 @@
         .col.col-lg-10.col-12
           .cajon.cajon.C03.px-4.py-3
             ol.lista-ol--cuadro.mb-0
-              li 
+              li.mb-4 
                 .lista-ol--cuadro__vineta
                   span 1
                 | Estructura organizacional: se refiere a la jerarquía, la división del trabajo y los canales de comunicación, incluidos los informes que se generan.
-              li 
+              li.mb-4 
                 .lista-ol--cuadro__vineta
                   span 2
                 | Cultura y clima organizacional: comprende los valores, las normas, el sentido de pertenencia y el ambiente laboral que se vive en el equipo.
-              li 
+              li.mb-4 
                 .lista-ol--cuadro__vineta
                   span 3
                 | Recursos humanos: incluye las competencias, la motivación, la capacitación y el talento vinculado a la organización.
-              li 
+              li.mb-4 
                 .lista-ol--cuadro__vineta
                   span 4
                 | Procesos y procedimientos: abarca las reglas, las políticas y los métodos de trabajo que orientan la operación.
-              li 
+              li.mb-0 
                 .lista-ol--cuadro__vineta
                   span 5
                 | Recursos financieros y tecnológicos: corresponde a la capacidad económica y a la tecnología disponible para el desarrollo de las actividades.
@@ -373,7 +378,7 @@
 
       .row.justify-content-center
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.color-secundario.px-4.py-3
+          .cajon.cajon.C05.color-secundario.px-4.py-3
             p.mb-0 Ahora bien, identificar las variables no es suficiente: se necesita recopilar y organizar la información de manera rigurosa. Para ello existen instrumentos que facilitan el análisis y sustentan las conclusiones del diagnóstico. Estas herramientas, con sus características y aplicaciones, se abordan a continuación.
 
       Separador
@@ -432,7 +437,7 @@
       #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.5 Análisis interno y externo del equipo
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-4.recurso-diagnostico-sin-svg-console
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t2/img-24.png', alt='')
@@ -441,10 +446,10 @@
             p.mb-4 El análisis interno del equipo se centra en evaluar sus capacidades, recursos, procesos y desempeño. Su propósito es identificar las fortalezas que conviene potenciar y las debilidades que se deben corregir. En este proceso resultan determinantes aspectos como el clima laboral, la estructura organizativa y la gestión del talento humano, pues reflejan cómo funciona el equipo por dentro.
             .cajon.cajon.C03.px-4.py-4.mb-4
               p.mb-0 En cambio, el análisis externo examina los factores del entorno que pueden influir en el equipo, como las condiciones económicas, sociales, tecnológicas y políticas. Comprender ese entorno permite anticipar los cambios, aprovechar las oportunidades y adaptarse a las nuevas condiciones del mercado.
-            .col-lg-auto.d-none.d-lg-block
+            .col-lg-auto.d-none.d-lg-block.recurso-diagnostico-sin-svg-console__svg
               figure
                 img(src='@/assets/curso/temas/intro/img-02.svg', alt='')
-            .col-lg-10.col-12
+            .col-lg-10.col-12.recurso-diagnostico-sin-svg-console__texto
               p La integración del análisis interno y del externo ofrece una visión completa del equipo y de su contexto. Esta mirada conjunta se organiza mediante la matriz FODA, herramienta que clasifica los hallazgos según su origen, interno o externo, y su carácter, positivo o negativo:
 
       .row.justify-content-center.mb-4
@@ -472,6 +477,8 @@
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Del diagnóstico a la estrategia: la FODA cruzada
+
+            .recurso-titulo-equipo__barra
 
       p.mb-4 Identificar los cuatro elementos de la FODA es solo el primer paso; su verdadero valor aparece cuando se cruzan entre sí para generar estrategias. Al relacionar los factores internos con los externos, el equipo transforma el diagnóstico en decisiones concretas y define cómo actuar en cada situación. De ese cruce surgen cuatro tipos de estrategias:
 

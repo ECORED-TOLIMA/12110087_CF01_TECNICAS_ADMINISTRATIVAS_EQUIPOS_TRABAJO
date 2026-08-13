@@ -102,7 +102,7 @@
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.color-secundario.px-4.py-3
+          .cajon.cajon.C05.color-secundario.px-4.py-3
             p.mb-0(data-aos="fade-down") En conjunto, estas cuatro etapas conforman un ciclo continuo: la planeación define el rumbo, la organización lo estructura, la dirección lo moviliza y el control lo evalúa. Su aplicación articulada permite que el equipo de trabajo actúe de manera coordinada, corrija a tiempo sus desviaciones y avance de forma sostenida hacia el logro de los objetivos.
 
       p.mb-4 Una de las estrategias fundamentales es la implementación de un liderazgo situacional, que se adapta al nivel de madurez y competencia de cada colaborador. Un administrador eficiente no aplica un estilo único, sino que sabe cuándo delegar, cuándo instruir y cuándo apoyar emocionalmente. Este enfoque permite que el equipo gane autonomía de forma progresiva, reduciendo la dependencia del supervisor y fomentando una cultura de responsabilidad compartida donde cada miembro se siente dueño de sus procesos.
@@ -114,7 +114,7 @@
         .col.col-lg-8.col-12.order-lg-2.order-2
           .row.mb-0
             .cajon.cajon.C01.px-4.py-4.mb-4
-              p.mb-0 La comunicación asertiva se posiciona como el lubricante que permite que los engranajes de la estrategia funcionen sin fricciones. No se trata solo de transmitir información, sino de establecer canales bidireccionales donde el feedback sea constante y constructivo. Las organizaciones líderes utilizan reuniones de sincronización breve y plataformas digitales para asegurar que todos estén en la misma página, eliminando los silos informativos que suelen generar malentendidos y retrasos operativos.
+              p.mb-0 La comunicación asertiva se posiciona como el lubricante que permite que los engranajes de la estrategia funcionen sin fricciones. No se trata solo de transmitir información, sino de establecer canales bidireccionales donde el #[em feedback] sea constante y constructivo. Las organizaciones líderes utilizan reuniones de sincronización breve y plataformas digitales para asegurar que todos estén en la misma página, eliminando los silos informativos que suelen generar malentendidos y retrasos operativos.
             .col-lg-12.col-12
               p Seguida por la optimización de la estructura de roles es vital para evitar la duplicidad de funciones y el agotamiento laboral. Una estrategia administrativa sólida define con exactitud qué se espera de cada rol, pero manteniendo la flexibilidad suficiente para que los miembros colaboren en proyectos transversales. Esta claridad reduce el estrés organizacional y permite que el talento humano se enfoque en actividades de alto valor, potenciando la especialización sin perder de vista la visión global.
             
@@ -134,7 +134,7 @@
                 p.mb-0 Implica establecer protocolos claros para mediar en los desacuerdos antes de que escalen, con neutralidad y enfoque en soluciones. Por ejemplo, en una obra de construcción en Barranquilla, el líder puede acordar reuniones breves para resolver las diferencias entre cuadrillas, de modo que se preserve el clima laboral y no se retrasen las actividades programadas.
             .row(titulo="Herramientas tecnológicas")
               .col-12.mb-0.mb-md-0
-                p.mb-0 Son los recursos digitales, como el software de gestión de proyectos, la colaboración en la nube y el análisis de datos, que agilizan las tareas rutinarias y liberan al equipo para la innovación. Por ejemplo, una pyme de logística en Bogotá puede usar una plataforma para asignar entregas y hacer seguimiento en tiempo real, y así responder mejor a sus clientes.
+                p.mb-0 Son los recursos digitales, como el #[em software] de gestión de proyectos, la colaboración en la nube y el análisis de datos, que agilizan las tareas rutinarias y liberan al equipo para la innovación. Por ejemplo, una pyme de logística en Bogotá puede usar una plataforma para asignar entregas y hacer seguimiento en tiempo real, y así responder mejor a sus clientes.
             .row(titulo="Reconocimiento y motivación")
               .col-12.mb-0.mb-md-0
                 p.mb-0 Consiste en diseñar incentivos que premien la colaboración y valoren el esfuerzo, para reforzar el sentido de pertenencia y retener el talento. Por ejemplo, una empresa de turismo en el Eje Cafetero puede reconocer públicamente a los equipos con mejor servicio al cliente, lo que reduce la rotación de personal y atrae a nuevos colaboradores.
@@ -196,37 +196,39 @@
               h4.mb-0 Concepto de equipo de trabajo
 
             .recurso-titulo-equipo__barra
-
-      .row.BG01.justify-content-center.px-md-5.px-4.mb-4
-        .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
-          .row.mb-4.recuadro-equipo-azul.align-items-center
-            .col-lg-auto.d-none.d-lg-block
-              figure.mb-0
-                img(src='@/assets/curso/temas/t1/img-10.svg', alt='').recuadro-equipo-azul__icono
-            .col-lg-10.col-12
-              p.mb-0 Un equipo de trabajo es un conjunto reducido de personas con habilidades complementarias que se comprometen con un propósito común, un conjunto de metas de desempeño y una forma de trabajo por la cual se consideran mutuamente responsables. A diferencia de un grupo, en el que cada integrante persigue objetivos individuales y responde de manera aislada, el equipo se caracteriza por la interdependencia, la responsabilidad compartida y la búsqueda de resultados colectivos que ningún miembro podría alcanzar por sí solo.
-          p Distinguir el grupo del equipo ayuda a orientar la gestión. Mientras que en el grupo predomina la suma de esfuerzos, en el equipo se persigue la sinergia, es decir, un resultado conjunto superior a la simple adición de los aportes individuales. Las principales diferencias son:
-        .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
-          figure
-            img(src='@/assets/curso/temas/t1/img-11.svg', alt='')
-
-      .row.justify-content-center.mb-4
-        .col.col-lg-10.col-12
-          .cajon.cajon.C02.px-4.py-3
-            ul.lista-ul--color
-              li 
-                <i class="fa-solid fa-certificate"></i>
-                span #[b Objetivo:] en el grupo cada persona tiene metas propias; en el equipo existe una meta común compartida.
-              li 
-                <i class="fa-solid fa-certificate"></i>
-                | Responsabilidad: en el grupo es individual; en el equipo es individual y colectiva a la vez.
-              li 
-                <i class="fa-solid fa-certificate"></i>
-                | Resultado: el grupo genera productos separados; el equipo construye un producto colectivo e integrado.
-              li 
-                <i class="fa-solid fa-certificate"></i>
-                | Relación: en el grupo los vínculos suelen ser formales; en el equipo se cultivan la confianza y la cooperación.
       
+      .BG01.mb-4
+        .row.justify-content-center.align-items-start.g-0
+          .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
+            .row.mb-4.recuadro-equipo-azul.align-items-center
+              .col-lg-auto.d-none.d-lg-block
+                figure.mb-0
+                  img(src='@/assets/curso/temas/t1/img-10.svg', alt='').recuadro-equipo-azul__icono
+              .col-lg-10.col-12
+                p.mb-0 Un equipo de trabajo es un conjunto reducido de personas con habilidades complementarias que se comprometen con un propósito común, un conjunto de metas de desempeño y una forma de trabajo por la cual se consideran mutuamente responsables. A diferencia de un grupo, en el que cada integrante persigue objetivos individuales y responde de manera aislada, el equipo se caracteriza por la interdependencia, la responsabilidad compartida y la búsqueda de resultados colectivos que ningún miembro podría alcanzar por sí solo.
+
+            p.mb-0 Distinguir el grupo del equipo ayuda a orientar la gestión. Mientras que en el grupo predomina la suma de esfuerzos, en el equipo se persigue la sinergia, es decir, un resultado conjunto superior a la simple adición de los aportes individuales. Las principales diferencias son:
+
+          .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block.ps-lg-4
+            figure.mb-0
+              img(src='@/assets/curso/temas/t1/img-11.svg', alt='')
+
+          .col-lg-10.col-12.order-lg-3.order-3.mt-4
+            .cajon.cajon.C05.px-4.py-3
+              ul.lista-ul--color.mb-0
+                li  
+                  <i class="fa-solid fa-certificate"></i> 
+                  span #[b Objetivo:] en el grupo cada persona tiene metas propias; en el equipo existe una meta común compartida.
+                li  
+                  <i class="fa-solid fa-certificate"></i> 
+                  span #[b Responsabilidad:] en el grupo es individual; en el equipo es individual y colectiva a la vez.
+                li  
+                  <i class="fa-solid fa-certificate"></i> 
+                  span #[b Resultado:] el grupo genera productos separados; el equipo construye un producto colectivo e integrado.
+                li  
+                  <i class="fa-solid fa-certificate"></i> 
+                  span #[b Relación:] en el grupo los vínculos suelen ser formales; en el equipo se cultivan la confianza y la cooperación.
+
       .row.justify-content-start.mb-4.recurso-titulo-equipo
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
@@ -277,7 +279,7 @@
 
       p.mb-4 Los equipos no alcanzan su máximo rendimiento de manera inmediata, sino que evolucionan a través de etapas sucesivas. El modelo propuesto por Bruce Tuckman describe cinco fases que ayudan a comprender el comportamiento del equipo y a orientar la intervención del líder en cada momento:
 
-      .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .row.justify-content-center.align-items-center.mb-4.slyder-etapas-bg(data-aos="flip-up")
         SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--C02.p-4
             .row.justify-content-center.mb-3

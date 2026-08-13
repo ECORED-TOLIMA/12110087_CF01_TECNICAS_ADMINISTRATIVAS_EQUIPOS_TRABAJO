@@ -21,7 +21,7 @@
             img(src='@/assets/curso/temas/t3/img-02.svg', alt='')
         .col.col-lg-9.col-12.order-lg-2.order-2
           .row.mb-0
-            .cajon.cajon.C02.px-4.py-3.mb-0
+            .cajon.cajon.C05.px-4.py-3.mb-0
               ul.lista-ul.mb-0
                 li.mb-4 
                   i.lista-ul__vineta
@@ -38,7 +38,7 @@
                 li.mb-4 
                   i.lista-ul__vineta
                   | Recursos: determinan con qué se cuenta, ya sean humanos, materiales, financieros o tecnológicos.
-                li.mb-4 
+                li.mb-0 
                   i.lista-ul__vineta.mb-0
                   | Indicadores de seguimiento: permiten medir el avance y verificar el cumplimiento del plan. 
       
@@ -114,8 +114,8 @@
       .row.justify-content-center.mb-4
         .col-lg-8.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
           p Al responder estas cuatro preguntas, el plan de acción convierte el análisis del diagnóstico en resultados concretos y medibles. Así, ordena el trabajo del equipo, evita la improvisación y asigna a cada integrante un papel definido dentro de un propósito común. Su elaboración cuidadosa marca la diferencia entre una simple intención y una acción efectiva. Para cumplir ese propósito, un plan de acción debe reunir ciertas características que garantizan su claridad y su utilidad. Entre las principales se destacan las siguientes:
-          .cajon.cajon.C02.px-4.py-3.mb-0
-            ul.lista-ul--color
+          .cajon.cajon.C05.px-4.py-3.mb-0
+            ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
                 span #[b Claro:] se comprende con facilidad por parte de todos los integrantes del equipo.
@@ -248,7 +248,7 @@
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.px-4.py-3
+          .cajon.cajon.C05.px-4.py-3
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
@@ -311,7 +311,7 @@
                 figure
                   img(src='@/assets/curso/temas/t3/img-08.svg', alt='').m-auto
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center
         .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t3/img-09.svg', alt='')
@@ -319,7 +319,7 @@
           p(data-aos="fade-down") Otra técnica clave es la priorización de acciones, que determina qué actividades deben ejecutarse primero según su importancia y su urgencia. Apoyada en matrices de valoración o en el análisis de impacto, facilita la toma de decisiones y optimiza el uso de los recursos disponibles.
           p(data-aos="fade-down") Junto con las anteriores, existen otras técnicas que apoyan la planificación según el objetivo que se persiga. Entre las más útiles se encuentran las siguientes:
 
-      .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .row.justify-content-center.align-items-center.mb-4.slyder-etapas-bg(data-aos="flip-up")
         SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--C02.p-4
             .row.justify-content-center.mb-3
@@ -344,13 +344,13 @@
               .col-lg-6.col-sm-4.col-6
                 img(src='@/assets/curso/temas/t3/img-13.svg' alt='')
             h4.text-center Análisis de campo de fuerzas
-            p Evalúa las fuerzas que impulsan un cambio y las que lo frenan, con el fin de tomar decisiones informadas y reforzar las condiciones favorables. Por ejemplo, una cooperativa de Nariño que quiere adoptar un nuevo software puede sopesar el interés del equipo frente a la resistencia por falta de capacitación.
+            p Evalúa las fuerzas que impulsan un cambio y las que lo frenan, con el fin de tomar decisiones informadas y reforzar las condiciones favorables. Por ejemplo, una cooperativa de Nariño que quiere adoptar un nuevo #[em software] puede sopesar el interés del equipo frente a la resistencia por falta de capacitación.
           .tarjeta.tarjeta--C02.p-4
             .row.justify-content-center.mb-3
               .col-lg-6.col-sm-4.col-6
                 img(src='@/assets/curso/temas/t3/img-14.svg' alt='')
             h4.text-center Análisis de brechas (GAP)
-            p Compara la situación actual con los resultados deseados y traza una hoja de ruta para cerrar la diferencia. Por ejemplo, una empresa de call center de Barranquilla puede medir la brecha entre el tiempo de respuesta actual y el que espera el cliente, y definir acciones para reducirla. 
+            p Compara la situación actual con los resultados deseados y traza una hoja de ruta para cerrar la diferencia. Por ejemplo, una empresa de #[em call center] de Barranquilla puede medir la brecha entre el tiempo de respuesta actual y el que espera el cliente, y definir acciones para reducirla. 
           .tarjeta.tarjeta--C02.p-4
             .row.justify-content-center.mb-3
               .col-lg-6.col-sm-4.col-6
@@ -379,7 +379,7 @@
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.px-4.py-3
+          .cajon.cajon.C05.px-4.py-3
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
@@ -442,7 +442,7 @@
       p Finalmente, la programación debe ser flexible y ajustable, permitiendo realizar modificaciones en función de cambios en el entorno o en las condiciones del equipo. Esto garantiza que el plan se mantenga vigente y pertinente, favoreciendo su ejecución efectiva.
       p.mb-4 Los aspectos más relevantes al realizar la programación de actividades son:
 
-      TabsC.color-acento-botones.mb-4
+      TabsC.color-acento-botones.mb-4.tabs-actividades
         .py-3.py-md-4(titulo="Selección de actividades estratégicas")
           .row
             .col-md-5.mb-4.mb-md-0
@@ -461,11 +461,11 @@
             .col-md-6
               p Establece el orden de ejecución de las tareas según su importancia y su urgencia, de modo que el equipo concentre sus esfuerzos donde generan mayor impacto. Para priorizar bien, se consideran la disponibilidad de recursos, el tiempo requerido, el nivel de impacto y las consecuencias de no ejecutar una acción. Así se decide con criterio, se gestiona mejor el tiempo y se reduce la sobrecarga.
               p #[b Ejemplo 1:] en una clínica de Medellín, el equipo atiende primero los casos urgentes y programa después los trámites administrativos.
-              p #[b Ejemplo 2:] una empresa de software en Pereira ejecuta primero las tareas que condicionan la entrega del producto y deja para después las mejoras opcionales.
+              p #[b Ejemplo 2:] una empresa de #[em software] en Pereira ejecuta primero las tareas que condicionan la entrega del producto y deja para después las mejoras opcionales.
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.color-secundario.px-4.py-3
+          .cajon.cajon.C05.color-secundario.px-4.py-3
             p.mb-0(data-aos="fade-down") Seleccionar y priorizar las actividades permite que el equipo invierta su tiempo y sus recursos en lo que realmente importa. Ambas decisiones, tomadas con criterio y de forma participativa, ordenan el trabajo, evitan la dispersión de los esfuerzos y aumentan las probabilidades de alcanzar los objetivos del plan.
       
       p Ahora bien, llevar a la práctica esta organización resulta más sencillo con el apoyo de la tecnología. Hoy existen herramientas digitales que permiten programar, asignar y hacer seguimiento a las tareas del equipo desde un mismo lugar. En el siguiente apartado se presentan algunas de las más utilizadas, junto con sus principales funciones.
@@ -489,7 +489,7 @@
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Tabla 2.
             span Comparativo de mejores softwares de gestión de tareas
-          .tabla-a.color-acento-contenido.mb-4.tabla-plan-accion
+          .tabla-a.color-acento-contenido.mb-4.tabla-plan-accion.tabla-softwares
             table
               thead
                 tr(data-aos="fade-right")
@@ -530,9 +530,9 @@
                   td(style="background-color: #F6F6F6;") Desde 8 €
                 tr(data-aos="fade-right")
                   td Brevo
-                  td Equipos de marketing
-                  td Integración con marketing
-                  td Limitado fuera del marketing.
+                  td Equipos de #[em marketing]
+                  td Integración con #[em marketing]
+                  td Limitado fuera del #[em marketing.]
                   td Android/iOS
                   td Desde 6,33 €
                 tr(data-aos="fade-right")
@@ -543,7 +543,7 @@
                   td(style="background-color: #F6F6F6;") Android/iOS
                   td(style="background-color: #F6F6F6;") Desde 9 €
                 tr(data-aos="fade-right")
-                  td Todoist
+                  td #[em Todoist]
                   td Individuos y equipos pequeños
                   td Simple, intuitivo.
                   td Limitado para proyectos grandes
@@ -581,11 +581,13 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Principales funciones de un #[em software] de gestión de tareas
 
+            .recurso-titulo-equipo__barra
+
       .row.justify-content-center.mb-4
         .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
-          p Un software de gestión de tareas es una herramienta digital diseñada para ayudar a individuos y equipos de trabajo a planificar, organizar y dar seguimiento a sus tareas y proyectos de manera eficiente. Estas aplicaciones permiten crear, asignar y monitorizar tareas, establecer fechas límite y prioridades, además de facilitar la colaboración entre miembros del equipo.
+          p Un #[em software] de gestión de tareas es una herramienta digital diseñada para ayudar a individuos y equipos de trabajo a planificar, organizar y dar seguimiento a sus tareas y proyectos de manera eficiente. Estas aplicaciones permiten crear, asignar y monitorizar tareas, establecer fechas límite y prioridades, además de facilitar la colaboración entre miembros del equipo.
           .cajon.cajon.C04.px-4.py-3
-            p Sin importar el tipo de equipo que se conforme, organizarse y gestionar las tareas es una de las claves para ser productivos, alcanzar los objetivos, mejorar la comunicación y cumplir con los plazos de entrega, es decir, las fechas límite en las que un trabajo debe estar terminado, conocidas en inglés como deadlines.
+            p Sin importar el tipo de equipo que se conforme, organizarse y gestionar las tareas es una de las claves para ser productivos, alcanzar los objetivos, mejorar la comunicación y cumplir con los plazos de entrega, es decir, las fechas límite en las que un trabajo debe estar terminado, conocidas en inglés como #[em deadlines].
         .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t3/img-23.svg', alt='')
@@ -597,13 +599,26 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-9.col-12
               .recurso-kanban-full__cajon.recurso-kanban-full__cajon--borde
-                p.mb-3 #[strong • Tareas:] crear, organizar y asignar tareas individuales o grupales, estableciendo prioridades y fechas límite para cada una de ellas.
-                p.mb-3 #[strong • Plazos:] establecer fechas límite y duraciones para las tareas, permitiendo una mejor gestión del tiempo y el cumplimiento de los objetivos del proyecto.
-                p.mb-3 #[strong • Tableros:] visualizar y organizar el trabajo en formato Kanban u otras vistas personalizables, permitiendo una gestión visual e intuitiva del flujo de trabajo.
-                p.mb-3 #[strong • Calendarios:] planificar y visualizar las tareas en un formato de calendario, permitiendo una mejor organización temporal y la identificación de posibles conflictos o sobrecargas de trabajo.
-                p.mb-3 #[strong • Seguimiento:] monitorizar el progreso de las tareas en tiempo real, con actualizaciones automáticas y notificaciones sobre cambios importantes.
-                p.mb-0 #[strong • Documentos:] adjuntar y almacenar archivos relevantes para las tareas, como documentos de referencia, imágenes o recursos necesarios para completar el trabajo.
-
+                ul.lista-ul.mb-0
+                  li 
+                    i.lista-ul__vineta
+                    span #[b Tareas:] crear, organizar y asignar tareas individuales o grupales, estableciendo prioridades y fechas límite para cada una de ellas.
+                  li 
+                    i.lista-ul__vineta
+                    | Plazos: establecer fechas límite y duraciones para las tareas, permitiendo una mejor gestión del tiempo y el cumplimiento de los objetivos del proyecto.
+                  li 
+                    i.lista-ul__vineta
+                    | Tableros: visualizar y organizar el trabajo en formato Kanban u otras vistas personalizables, permitiendo una gestión visual e intuitiva del flujo de trabajo.
+                  li 
+                    i.lista-ul__vineta
+                    | Calendarios: planificar y visualizar las tareas en un formato de calendario, permitiendo una mejor organización temporal y la identificación de posibles conflictos o sobrecargas de trabajo.
+                  li 
+                    i.lista-ul__vineta
+                    | Seguimiento: monitorizar el progreso de las tareas en tiempo real, con actualizaciones automáticas y notificaciones sobre cambios importantes.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    | Documentos: adjuntar y almacenar archivos relevantes para las tareas, como documentos de referencia, imágenes o recursos necesarios para completar el trabajo.
+                
             .col-lg-3.col-md-6.col-10.d-none.d-lg-block
               figure.mb-0.recurso-kanban-full__img
                 img(src='@/assets/curso/temas/t3/img-24.svg', alt='Imagen decorativa')
@@ -615,16 +630,29 @@
 
             .col-lg-9.col-12
               .recurso-kanban-full__cajon
-                p.mb-3 #[strong • Colaboración:] facilitar la comunicación entre miembros del equipo mediante comentarios, menciones y compartición de archivos.
-                p.mb-3 #[strong • Automatización:] crear flujos de trabajo automatizados para tareas repetitivas, como notificaciones, actualizaciones de estado o asignaciones, ahorrando tiempo y reduciendo errores manuales.
-                p.mb-3 #[strong • Integración:] conectar el #[i software] con otras herramientas y servicios utilizados por el equipo, como almacenamiento en la nube, correo electrónico o aplicaciones de comunicación, creando un ecosistema de trabajo más eficiente y centralizado.
-                p.mb-3 #[strong • Interfaz:] diseño intuitivo y fácil de usar que permite a los usuarios navegar y utilizar las funciones del #[i software] de manera eficiente, con una curva de aprendizaje mínima y una experiencia de usuario optimizada.
-                p.mb-3 #[strong • Flexibilidad:] capacidad de adaptación a diferentes metodologías de trabajo y necesidades, permitiendo personalizar flujos de trabajo, vistas y campos según los requisitos particulares de cada proyecto u organización.
-                p.mb-0 #[strong • App móvil:] acceso a las funcionalidades principales desde dispositivos móviles, permitiendo gestionar tareas y proyectos en cualquier momento y lugar.
+                ul.lista-ul.mb-0
+                  li 
+                    i.lista-ul__vineta
+                    span #[b Colaboración:] facilitar la comunicación entre miembros del equipo mediante comentarios, menciones y compartición de archivos.
+                  li 
+                    i.lista-ul__vineta
+                    | Automatización: crear flujos de trabajo automatizados para tareas repetitivas, como notificaciones, actualizaciones de estado o asignaciones, ahorrando tiempo y reduciendo errores manuales.
+                  li 
+                    i.lista-ul__vineta
+                    span Integración: conectar el #[em software] con otras herramientas y servicios utilizados por el equipo, como almacenamiento en la nube, correo electrónico o aplicaciones de comunicación, creando un ecosistema de trabajo más eficiente y centralizado
+                  li 
+                    i.lista-ul__vineta
+                    | Interfaz: diseño intuitivo y fácil de usar que permite a los usuarios navegar y utilizar las funciones del #[em software] de manera eficiente, con una curva de aprendizaje mínima y una experiencia de usuario optimizada.
+                  li 
+                    i.lista-ul__vineta
+                    | Flexibilidad: capacidad de adaptación a diferentes metodologías de trabajo y necesidades, permitiendo personalizar flujos de trabajo, vistas y campos según los requisitos particulares de cada proyecto u organización.
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    | App móvil: acceso a las funcionalidades principales desde dispositivos móviles, permitiendo gestionar tareas y proyectos en cualquier momento y lugar.
 
       .row.justify-content-center
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.color-secundario.px-4.py-3
+          .cajon.cajon.C05.color-secundario.px-4.py-3
             p.mb-0(data-aos="fade-down") Estas funcionalidades convierten a los programas de gestión de tareas en aliados del trabajo en equipo, pues centralizan la información, agilizan la coordinación y facilitan el seguimiento del plan. Su aprovechamiento, sin embargo, depende de contar con los medios adecuados para ponerlos en marcha. Por eso, el último paso del diseño del plan consiste en proyectar los recursos necesarios para su ejecución.
 
       Separador
@@ -639,7 +667,7 @@
         .col.col-lg-9.col-12.order-lg-2.order-2
           .row.mb-0
             p.mb-4 La proyección de recursos es el proceso mediante el cual se identifican y planifican los recursos necesarios para la ejecución del plan de acción. Estos recursos pueden ser humanos, materiales, financieros o tecnológicos, y su adecuada gestión es fundamental para el éxito del plan.
-            .cajon.cajon.C03.px-4.py-4.mb-4
+            .cajon.cajon.C07.px-4.py-4.mb-4
               p.mb-0 Este proceso implica estimar la cantidad, calidad y disponibilidad de los recursos requeridos, así como definir cómo serán utilizados y distribuidos. Una correcta proyección permite evitar desperdicios, optimizar el uso de los recursos y garantizar su disponibilidad en el momento oportuno.
             .col-lg-auto.d-none.d-lg-block
               figure
@@ -656,9 +684,9 @@
             .recurso-info-azul__contenido
               p.mb-0 Para que resulte útil, la proyección de recursos debe ser realista y ajustarse a las capacidades del equipo. Planear con lo que realmente se dispone garantiza la viabilidad del plan de acción y favorece el logro de los objetivos establecidos.
       
-      p.mb-4 La proyección incide, en especial, en dos tipos de recursos que conviene planificar con cuidado:
+      p.mb-2 La proyección incide, en especial, en dos tipos de recursos que conviene planificar con cuidado:
       
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-2.recurso-recursos-bg
         .col-lg-10.col-12
           .tarjeta--container.row.mb-4
             .col-md.tarjeta.color-primario.verde.p-5

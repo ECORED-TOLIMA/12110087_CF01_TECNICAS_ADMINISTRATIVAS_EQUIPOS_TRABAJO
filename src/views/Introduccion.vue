@@ -10,7 +10,7 @@
 
       p.mb-4 Los equipos de trabajo constituyen el eje sobre el cual las organizaciones alcanzan sus objetivos. No obstante, su desempeño efectivo depende de la capacidad de comprender su situación real y de planificar con criterio las acciones que lo fortalecen. En la práctica, muchas dificultades se originan en la ausencia de un diagnóstico riguroso y de un plan de acción coherente: la dispersión de los esfuerzos, la duplicidad de funciones o la toma de decisiones sin información suficiente. Estas omisiones limitan la productividad y debilitan la cohesión del equipo.
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-4.recurso-intro-sin-img-console
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/intro/img-01.png', alt='')

@@ -24,7 +24,7 @@
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.px-4.py-3
+          .cajon.cajon.C05.px-4.py-3
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
@@ -62,12 +62,14 @@
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Función de los indicadores
+
+            .recurso-titulo-equipo__barra
       
       p.mb-4 El valor de un indicador depende no solo de lo que mide, sino de cómo se interpreta la información que ofrece. Según ese uso, un indicador cumple dos funciones complementarias: una que describe la realidad y otra que la valora. A continuación, se explican ambas:
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-4.recurso-funciones-indicador
         .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
-          figure
+          figure.mb-0.recurso-funciones-indicador__figure
             img(src='@/assets/curso/temas/t4/img-04.svg', alt='')
         .col.col-lg-9.col-12.order-lg-2.order-2
           .recurso-herramientas-analisis
@@ -77,7 +79,7 @@
             .recurso-herramientas-analisis__item.recurso-herramientas-analisis__item--salmon
               p.mb-0 Función valorativa: añade a la información descriptiva un juicio de valor, basado en datos objetivos, sobre si el desempeño es adecuado frente a una necesidad. Por ejemplo, un indicador que relaciona el número de becas entregadas con los estudiantes que las necesitan, y revela si la cobertura es suficiente.
 
-      p.mb-0 Ambas funciones se complementan: la descriptiva ofrece los datos y la valorativa los interpreta a la luz de los objetivos. Un indicador cobra pleno sentido cuando no solo informa qué ocurre, sino que orienta sobre si el resultado es satisfactorio y qué decisiones conviene tomar.
+      p.mb-4 Ambas funciones se complementan: la descriptiva ofrece los datos y la valorativa los interpreta a la luz de los objetivos. Un indicador cobra pleno sentido cuando no solo informa qué ocurre, sino que orienta sobre si el resultado es satisfactorio y qué decisiones conviene tomar.
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
@@ -90,9 +92,9 @@
 
       .row.justify-content-center.mb-4
         .col-lg-10.col-12
-          .recurso-info-azul
+          .recurso-info-azul.recurso-info-azul--con-titulo
             .recurso-info-azul__icono
-              img(src='@/assets/curso/temas/t2/img-18.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t2/img-18.svg', alt='')
 
             .recurso-info-azul__contenido
               h4.text-center Objetivos e indicadores: una relación estrecha
@@ -106,6 +108,8 @@
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Características de los indicadores
+
+            .recurso-titulo-equipo__barra
       
       p Diseñar un indicador implica algo más que elegir una fórmula. Para que cumpla su propósito, debe reunir ciertas cualidades que aseguren que mide lo correcto, de forma confiable y comprensible. Un indicador mal formulado puede entregar información engañosa y conducir a decisiones equivocadas.
       p.mb-4 Por esa razón, conviene verificar que cada indicador satisfaga, en la medida de lo posible, las siguientes características. A continuación, se describen las principales, acompañadas de un ejemplo que facilita su comprensión:
@@ -115,30 +119,53 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-9.col-12
               .recurso-kanban-full__cajon.recurso-kanban-full__cajon--borde
-                p.mb-3 #[strong • Pertinencia:] se refiere a los procesos y productos esenciales de la institución, de modo que mida lo que realmente importa para su misión y no aspectos secundarios. Ejemplo: en un hospital, medir el tiempo de atención a los pacientes y no el número de reuniones internas. 
-                p.mb-3 #[strong • Plazos:] establecer fechas límite y duraciones para las tareas, permitiendo una mejor gestión del tiempo y el cumplimiento de los objetivos del proyecto.
-                p.mb-3 #[strong • Tableros:] visualizar y organizar el trabajo en formato Kanban u otras vistas personalizables, permitiendo una gestión visual e intuitiva del flujo de trabajo.
-                p.mb-3 #[strong • Calendarios:] planificar y visualizar las tareas en un formato de calendario, permitiendo una mejor organización temporal y la identificación de posibles conflictos o sobrecargas de trabajo.
-                p.mb-3 #[strong • Seguimiento:] monitorizar el progreso de las tareas en tiempo real, con actualizaciones automáticas y notificaciones sobre cambios importantes.
-                p.mb-0 #[strong • Documentos:] adjuntar y almacenar archivos relevantes para las tareas, como documentos de referencia, imágenes o recursos necesarios para completar el trabajo.
+                ul.lista-ul.mb-0
+                  li 
+                    i.lista-ul__vineta
+                    span #[b Pertinencia:] se refiere a los procesos y productos esenciales de la institución, de modo que mida lo que realmente importa para su misión y no aspectos secundarios. Ejemplo: en un hospital, medir el tiempo de atención a los pacientes y no el número de reuniones internas. 
+                  li 
+                    i.lista-ul__vineta
+                    | Independencia: no depende de factores externos ajenos a la gestión, como la situación del país o la actividad de terceros, para que refleje el desempeño propio. Ejemplo: medir los graduados de un programa, sin atribuir el resultado a la economía nacional. 
+                  li 
+                    i.lista-ul__vineta
+                    | Costo: la información necesaria para calcularlo se obtiene a un costo razonable, sin exigir recursos desproporcionados. Ejemplo: usar los registros de matrícula ya existentes en lugar de contratar una encuesta costosa. 
+                  li 
+                    i.lista-ul__vineta
+                    | Confiabilidad: ofrece resultados dignos de confianza, iguales sin importar quién realice la medición, si se aplican los mismos criterios. Ejemplo: dos analistas que calculan la deserción con los mismos datos obtienen la misma cifra. 
+                  li 
+                    i.lista-ul__vineta
+                    | Simplicidad: es de fácil comprensión y está libre de complejidades, de manera que cualquier persona entienda qué mide. Ejemplo: expresar la cobertura como un porcentaje claro de beneficiarios atendidos frente al total previsto. 
 
             .col-lg-3.col-md-6.col-10.d-none.d-lg-block
               figure.mb-0.recurso-kanban-full__img
-                img(src='@/assets/curso/temas/t4/img-06.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t4/img-06.svg', alt='')
 
           .row.justify-content-center.align-items-center
             .col-lg-3.col-md-6.col-10.d-none.d-lg-block
               figure.mb-0.recurso-kanban-full__img
-                img(src='@/assets/curso/temas/t4/img-07.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t4/img-07.svg', alt='')
 
             .col-lg-9.col-12
               .recurso-kanban-full__cajon
-                p.mb-3 #[strong • Colaboración:] facilitar la comunicación entre miembros del equipo mediante comentarios, menciones y compartición de archivos.
-                p.mb-3 #[strong • Automatización:] crear flujos de trabajo automatizados para tareas repetitivas, como notificaciones, actualizaciones de estado o asignaciones, ahorrando tiempo y reduciendo errores manuales.
-                p.mb-3 #[strong • Integración:] conectar el #[i software] con otras herramientas y servicios utilizados por el equipo, como almacenamiento en la nube, correo electrónico o aplicaciones de comunicación, creando un ecosistema de trabajo más eficiente y centralizado.
-                p.mb-3 #[strong • Interfaz:] diseño intuitivo y fácil de usar que permite a los usuarios navegar y utilizar las funciones del #[i software] de manera eficiente, con una curva de aprendizaje mínima y una experiencia de usuario optimizada.
-                p.mb-3 #[strong • Flexibilidad:] capacidad de adaptación a diferentes metodologías de trabajo y necesidades, permitiendo personalizar flujos de trabajo, vistas y campos según los requisitos particulares de cada proyecto u organización.
-                p.mb-0 #[strong • App móvil:] acceso a las funcionalidades principales desde dispositivos móviles, permitiendo gestionar tareas y proyectos en cualquier momento y lugar.
+                ul.lista-ul.mb-0
+                  li 
+                    i.lista-ul__vineta
+                    span #[b Oportunidad:] se genera en el momento adecuado, según el tipo de indicador y la necesidad de medición y difusión, para apoyar las decisiones a tiempo. Ejemplo: reportar las ventas cada mes y no un año después. 
+                  li 
+                    i.lista-ul__vineta
+                    | No redundancia: es único y no repite lo que ya miden otros indicadores, para evitar duplicar la información. Ejemplo: no crear dos indicadores que midan lo mismo, como asistencia y presentismo. 
+                  li 
+                    i.lista-ul__vineta
+                    | Focalizado en áreas controlables: se centra en aspectos que la organización puede corregir y genera responsabilidades directas en los funcionarios. Ejemplo: medir los tiempos de respuesta de un trámite que depende del propio equipo. 
+                  li 
+                    i.lista-ul__vineta
+                    | Participación: su elaboración involucra a los actores relevantes, lo que asegura su legitimidad y refuerza el compromiso con los objetivos. Ejemplo: definir los indicadores de un área junto con las personas que ejecutan las tareas. 
+                  li 
+                    i.lista-ul__vineta
+                    | Disponibilidad: los datos básicos para construirlo son de fácil obtención, sin restricciones de ningún tipo. Ejemplo: apoyarse en los sistemas de información institucionales que ya registran los datos requeridos. 
+                  li.mb-0 
+                    i.lista-ul__vineta
+                    | Sensibilidad: identifica los cambios de las variables a través del tiempo, de modo que refleje las mejoras o los retrocesos. Ejemplo: un indicador de satisfacción que muestra las variaciones mes a mes.
 
       .row.justify-content-center
         .col.col-lg-10.col-12
@@ -171,48 +198,48 @@
 
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
-          .cajon.cajon.C03.px-4.py-3
+          .cajon.cajon.C07.px-4.py-3
             ol.lista-ol--cuadro.mb-0
               li 
                 .lista-ol--cuadro__vineta
-                  span 1
+                  span A
                 | Establecer las definiciones estratégicas (misión, visión, objetivos y plan de acción) como referente de la medición.
               li 
                 .lista-ol--cuadro__vineta
-                  span 2
+                  span B
                 | Determinar las áreas de desempeño relevantes que se deben medir.
               li 
                 .lista-ol--cuadro__vineta
-                  span 3
+                  span C
                 | Definir los indicadores que se van a construir, según cada área.
               li 
                 .lista-ol--cuadro__vineta
-                  span 4
+                  span D
                 | Asignar el nombre del indicador y describir su fórmula de cálculo.
               li 
                 .lista-ol--cuadro__vineta
-                  span 5
+                  span E
                 | Recopilar los datos e identificar las fuentes o medios de verificación.
               li 
                 .lista-ol--cuadro__vineta
-                  span 6
+                  span F
                 | Establecer las metas que se esperan alcanzar.
               li 
                 .lista-ol--cuadro__vineta
-                  span 7
+                  span G
                 | Elaborar la ficha técnica que documenta cada indicador.
 
       .row.justify-content-center.mb-4
         .col-lg-10.col-12
-          .row.justify-content-center.g-0.recurso-patrimonio.recurso-patrimonio--sin-img-console
-            .col-lg-2.col-md-3.col-12
-              .recurso-patrimonio__img.d-none.d-lg-block
+          .row.justify-content-center.g-0.recurso-patrimonio.recurso-patrimonio--punto-partida
+            .col-lg-3.col-md-4.col-12.d-none.d-lg-block
+              .recurso-patrimonio__img
                 figure.mb-0
                   img(src='@/assets/curso/temas/t4/img-10.svg', alt='')
 
-            .col-lg-8.col-md-9.col-12
+            .col-lg-9.col-md-12.col-12
               .recurso-patrimonio__texto
-                h4 EI punto de partida
+                h4 El punto de partida
                 p.mb-0 Antes de construir cualquier indicador, es indispensable tener claras las definiciones estratégicas de la organización: su misión, su visión, sus objetivos y su plan de acción. Sin un norte definido, no existe un referente frente al cual medir el progreso de la gestión.
 
       p.mb-4 El uso y aplicación de indicadores se relaciona estrechamente con el proceso de planeación de las entidades públicas, ahora bien, aunque los pasos que se deben seguir para la construcción adecuada de indicadores pueden ser diversos según la metodología que se aplique, existen algunos considerados como básicos que garantizarán un tratamiento adecuado de la información disponible y que facilitarán la obtención de indicadores coherentes y prácticos atendiendo a los objetivos de medición especificados, los cuales se enuncian a continuación:
@@ -225,7 +252,7 @@
                 .col-4
                   figure
                     img(src='@/assets/curso/temas/t4/img-11.svg', alt='')          
-              h3.text-center Establecer las definiciones estratégicas como referente para la medición
+              h4.text-center Establecer las definiciones estratégicas como referente para la medición
               p.mb-0 Antes de construir cualquier tipo de indicador es absolutamente necesario tener claridad sobre las definiciones estratégicas básicas de la organización: misión, visión, objetivos estratégicos, estrategias y plan de acción, así como el haber realizado una planificación estratégica que le permitirá servir de eje rector durante el desarrollo de los objetivos de los programas establecidos por la entidad y en consecuencia de los indicadores evaluadores del progreso y el avance de la gestión. 
 
             .col-md.tarjeta.color-acento-botones.naranja.p-5
@@ -233,19 +260,19 @@
                 .col-4
                   figure
                     img(src='@/assets/curso/temas/t4/img-12.svg', alt='')          
-              h3.text-center Establecer las áreas de desempeño relevantes a medir
+              h4.text-center Establecer las áreas de desempeño relevantes a medir
               p.mb-0 Los indicadores de gestión en una entidad se encuentran presentes en todo el desarrollo del sistema de control de gestión, y como tal contribuyen a los tres niveles de decisiones de la planificación, a saber: estratégica, de control de gestión y operativa. Desde esta perspectiva los indicadores son los elementos fundamentales para la toma de decisiones directivas y de esta manera permiten analizar el comportamiento de las variables claves y estratégicas de la entidad.
 
       .row.justify-content-center.mb-4
         .col-lg-10.col-12
-          .recurso-indicadores-areas
+          .recurso-indicadores-areas.recurso-indicadores-areas--sin-img-tablet
             .row.align-items-center.g-0
-              .col-lg-4.col-md-4.col-12
+              .col-lg-4.col-md-4.col-12.recurso-indicadores-areas__col-img
                 .recurso-indicadores-areas__img
                   figure.mb-0
-                    img(src='@/assets/curso/temas/t4/img-13.svg', alt='Imagen decorativa')
+                    img(src='@/assets/curso/temas/t4/img-13.svg', alt='')
 
-              .col-lg-8.col-md-8.col-12
+              .col-lg-8.col-md-8.col-12.recurso-indicadores-areas__col-contenido
                 .recurso-indicadores-areas__contenido
                   h4.mb-3 ¿Todas las áreas deben tener indicadores?
 
@@ -261,7 +288,7 @@
 
       .row.justify-content-center.mb-4
         .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
-          .cajon.cajon.C04.px-4.py-3
+          .cajon.cajon.C08.px-4.py-3
             ol.lista-ol--cuadro.mb-0
               li.mb-4 
                 .lista-ol--cuadro__vineta
@@ -298,6 +325,8 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Definir el nombre del indicador y describir la fórmula de cálculo 
 
+            .recurso-titulo-equipo__barra
+
       .row.justify-content-center.mb-4
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
@@ -317,6 +346,8 @@
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Claves para la formulación y nombre del indicador
+
+            .recurso-titulo-equipo__barra
 
       p.mb-4 El nombre de un indicador es la primera pista sobre lo que mide, por lo que debe formularse con cuidado. Un nombre bien elaborado facilita su comprensión, evita confusiones y anticipa el sentido de sus resultados. Para lograrlo, conviene seguir estas claves:
 
@@ -360,7 +391,7 @@
           .row.mb-0.recuadro-equipo-azul.align-items-center.mb-4
             .col-lg-auto.d-none.d-lg-block
               figure.mb-0
-                img(src='@/assets/curso/temas/t4/img-02.svg', alt='').recuadro-equipo-azul__icono
+                img(src='@/assets/curso/temas/t4/img-28.svg', alt='').recuadro-equipo-azul__icono
             .col-lg-10.col-12
               p.mb-0 Finalmente, se definen qué aspectos son factores críticos de medición y por último se recomienda que el indicador corresponda tanto con los objetivos como con los estándares definidos por cada proceso. 
           p Para que un indicador sea pertinente y sea apto para realizar mediciones del desempeño organizacional en los diferentes procesos que se adelantan, debe tener la siguiente estructura:
@@ -377,7 +408,7 @@
           figure.desktop.mb-0
             img(src='@/assets/curso/temas/t4/figura-1-1.svg', alt='Esquema que representa la regla para nombrar un indicador: el sujeto del objetivo más el verbo en participio. Así el nombre indica qué se mide.')
             figcaption Fuente: Función Pública (2018).
-        .col-10 
+        .col-12 
           figure.movil.mb-0
             img(src='@/assets/curso/temas/t4/figura-1-2.svg', alt='Esquema que representa la regla para nombrar un indicador: el sujeto del objetivo más el verbo en participio. Así el nombre indica qué se mide.')
             figcaption Fuente: Función Pública (2018).
@@ -447,11 +478,13 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Criterios técnicos para la selección de indicadores
 
+            .recurso-titulo-equipo__barra
+
       .row.justify-content-center.mb-4
         .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
           p En este paso es garantizar la obtención de indicadores balanceados, que además de cumplir con los requerimientos técnicos establecidos se conviertan en una herramienta de información útil para todos los que lo utilicen. 
           p Según lo citado en el informe sobre planificación estratégica de la CEPAL, los criterios para seleccionar los indicadores del sistema de medición son los siguientes: 
-          .cajon.cajon.C02.px-4.py-3.mb-0
+          .cajon.cajon.C05.px-4.py-3.mb-0
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
@@ -489,7 +522,7 @@
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Tabla 3.
             span Criterios para seleccionar indicadores
-          .tabla-a.color-acento-contenido.mb-4.tabla-plan-accion
+          .tabla-a.color-acento-contenido.mb-4.tabla-plan-accion.tabla-softwares
             table
               thead
                 tr(data-aos="fade-right")
@@ -519,7 +552,7 @@
                   td Que los resultados y análisis permitan tomar decisiones.
             figcaption Fuente: Función Pública (2018).
 
-      .row.justify-content-start.mb-4.recurso-titulo-equipo
+      .row.justify-content-start.mb-4.recurso-titulo-equipo.recurso-titulo-equipo--largo
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
@@ -528,11 +561,13 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Recopilación de datos y establecimiento de las fuentes de los datos o medios de verificación 
 
+            .recurso-titulo-equipo__barra
+
       .row.justify-content-center.mb-4.recurso-fuentes-info
         .col-lg-3.col-md-4.col-12
           .recurso-fuentes-info__img
             figure.mb-0
-              img(src='@/assets/curso/temas/t4/img-19.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t4/img-19.svg', alt='')
 
         .col-lg-9.col-md-8.col-12
           .recurso-fuentes-info__texto
@@ -546,17 +581,19 @@
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Establecer las metas
+
+            .recurso-titulo-equipo__barra
       
       .row.justify-content-center.mb-4
         .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
           p La meta es el valor que se espera alcanzar en un indicador dentro de un plazo definido. Debe guardar concordancia con los objetivos que la entidad desea conseguir, con el desarrollo del programa y con los proyectos establecidos. De su definición se desprenden, además, los lineamientos para el monitoreo, la medición y la evaluación del progreso de la gestión, así como del desempeño administrativo de la entidad.
-          .cajon.cajon.C04.px-4.py-3
-            p Toda meta bien formulada reúne dos características fundamentales, que determinan su utilidad para el seguimiento: el desempeño medible, que indica cuánto se espera lograr, y el plazo de cumplimiento, que precisa para cuándo. A continuación, se explica cada una:
+          .cajon.cajon.C03.px-4.py-3
+            p.mb-0 Toda meta bien formulada reúne dos características fundamentales, que determinan su utilidad para el seguimiento: el desempeño medible, que indica cuánto se espera lograr, y el plazo de cumplimiento, que precisa para cuándo. A continuación, se explica cada una:
         .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t4/img-20.svg', alt='')
 
-      TabsC.color-acento-botones.mb-4
+      TabsC.color-acento-botones.mb-4.tabs-actividades
         .py-3.py-md-4(titulo="A. Desempeño medible")
           .row
             .col-md-5.mb-4.mb-md-0
@@ -564,7 +601,7 @@
                 img(src='@/assets/curso/temas/t4/img-21.png', alt='Texto que describa la imagen')
             .col-md-6
               p Expresa la magnitud que se espera alcanzar y la unidad en que se medirá, de modo que el resultado pueda compararse de manera objetiva con lo planeado. Su formulación exige tres elementos: la unidad de medida, que puede ser porcentaje, kilómetros, número de beneficiarios o días promedio; la línea base, que refleja la situación actual, y el valor esperado al final del período. Sin ellos la meta expresa una intención y no un compromiso verificable.
-              p Ejemplo: la expresión “mejorar la cobertura del programa de vivienda rural” no constituye una meta medible, porque no precisa cuánto debe mejorar. La formulación correcta es “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados”. En ella el porcentaje es la unidad de medida, el 70 % corresponde a la línea base y el 85 % al valor esperado.
+              p #[em #[b Ejemplo:]] la expresión “mejorar la cobertura del programa de vivienda rural” no constituye una meta medible, porque no precisa cuánto debe mejorar. La formulación correcta es “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados”. En ella el porcentaje es la unidad de medida, el 70 % corresponde a la línea base y el 85 % al valor esperado.
 
         .py-3.py-md-4(titulo="B. Plazo de cumplimiento")
           .row
@@ -573,7 +610,7 @@
                 img(src='@/assets/curso/temas/t4/img-22.png', alt='Texto que describa la imagen')
             .col-md-6
               p Delimita la meta en el tiempo mediante dos referencias: la fecha tope en que debe alcanzarse el valor propuesto y la periodicidad con que se medirá el avance, que puede ser bimestral, trimestral, anual o quinquenal. La fecha tope permite emitir el juicio final sobre el cumplimiento; la periodicidad indica cada cuánto se recolectan los datos y se reporta el resultado, lo que hace posible detectar las desviaciones cuando todavía existe margen suficiente para corregirlas.
-              p Ejemplo: la meta del literal anterior se completa así: “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados, al 31 de diciembre de 2026, con medición trimestral del avance”. La fecha tope establece el momento de la evaluación final y las mediciones de marzo, junio y septiembre permiten verificar si el ritmo de ejecución conduce al resultado previsto.
+              p #[em #[b Ejemplo:]] la meta del literal anterior se completa así: “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados, al 31 de diciembre de 2026, con medición trimestral del avance”. La fecha tope establece el momento de la evaluación final y las mediciones de marzo, junio y septiembre permiten verificar si el ritmo de ejecución conduce al resultado previsto.
 
       .row.justify-content-center.mb-4
         .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -591,7 +628,7 @@
 
       .row.BG02.justify-content-center.px-md-5.px-4.mb-4(data-aos="flip-up")
         .col.col-lg-10.col-12
-          .cajon.cajon.C02.px-4.py-3.mb-4
+          .cajon.cajon.C05.px-4.py-3.mb-4
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
@@ -618,7 +655,7 @@
                 <i class="fa-solid fa-certificate"></i>
                 | Responsables: personas o áreas encargadas de calcular, analizar y reportar el resultado. 
 
-          .cajon.cajon.C02.color-secundario.px-4.py-3
+          .cajon.cajon.C04.color-primario.px-4.py-3
             p.mb-0(data-aos="fade-down") La ficha técnica es el documento que estandariza la medición de un indicador. En ella se registran los elementos que hacen posible su lectura y su cálculo: el nombre, la definición u objetivo, la fórmula, la unidad de medida, la periodicidad, las fuentes de datos, las metas y los rangos de tolerancia. Su finalidad no consiste en documentar para cumplir un requisito; consiste en asegurar que el indicador se interprete y se calcule siempre de la misma forma, con independencia de quién lo consulte o de los cambios de personal. El resultado esperado es doble: series de datos comparables en el tiempo y decisiones de gestión sustentadas en información verificable.
 
       p Definidos los ocho componentes, el paso siguiente consiste en consolidarlos en un formato único. La siguiente tabla presenta el modelo de ficha técnica, que desglosa la fórmula en numerador y denominador e incorpora dos campos: el rango de tolerancia, con sus niveles excelente, aceptable e inaceptable, y el análisis de la medición.
@@ -708,6 +745,8 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Dirección esperada del indicador
 
+            .recurso-titulo-equipo__barra
+
       .row.justify-content-center.mb-4
         .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
           p Antes de interpretar un resultado es necesario reconocer la dirección esperada del indicador, es decir, si su mejora se refleja en un aumento o en una disminución del valor obtenido. Un indicador ascendente mejora cuando la cifra crece; uno descendente, cuando decrece. Confundir esa dirección conduce a valorar como avance lo que en realidad constituye un retroceso. En términos generales, la dirección se distribuye así:
@@ -743,6 +782,8 @@
             .recurso-titulo-equipo__texto
               h4.mb-0 Precauciones al emitir el juicio de desempeño
 
+            .recurso-titulo-equipo__barra
+
       p.mb-4 Reconocer la dirección, sin embargo, no basta para valorar el desempeño. Ningún indicador aislado lo demuestra por sí solo, porque mediciones distintas pueden arrojar resultados contradictorios entre sí; de ahí que la valoración deba apoyarse en un conjunto de indicadores que se lean de manera articulada. A esa condición se suman dos precauciones sobre el referente de comparación:
 
       .row.justify-content-center.mb-4.recurso-comparacion-indicador
@@ -764,6 +805,8 @@
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Alcance real de la herramienta
+
+            .recurso-titulo-equipo__barra
 
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")(style="background-color: #FECE81 !important")
         .bloque-texto-g__img.img-bg-03
@@ -798,43 +841,43 @@
             .row(numero="1" titulo="Índice de rotación de personal.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de trabajadores que se desvinculan durante un período respecto del total de la planta. Es descendente: un valor alto sugiere dificultades de clima laboral, de selección o de compensación.
-                p.mb-0 Ejemplo: en una empresa con 200 trabajadores se retiran 16 durante el semestre. El índice es (16 ÷ 200) × 100 = 8 %.
+                p.mb-0 #[em Ejemplo:] en una empresa con 200 trabajadores se retiran 16 durante el semestre. El índice es (16 ÷ 200) × 100 = 8 %.
             .row(numero="2" titulo="Tiempo promedio de contratación.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide los días transcurridos entre la apertura de una vacante y la vinculación efectiva del candidato. Es descendente: cuantos menos días, más ágil resulta el proceso de selección.
-                p.mb-0 Ejemplo: en el trimestre se cubrieron cinco vacantes en 40, 35, 50, 30 y 45 días. El promedio es 200 ÷ 5 = 40 días.
+                p.mb-0 #[em Ejemplo:] en el trimestre se cubrieron cinco vacantes en 40, 35, 50, 30 y 45 días. El promedio es 200 ÷ 5 = 40 días.
             .row(numero="3" titulo="Índice de ausentismo.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de días no laborados frente a los días programados en el período. Es descendente.
-                p.mb-0 Ejemplo: 200 trabajadores por 20 días equivalen a 4.000 días programados; se registran 120 días de ausencia. El índice es (120 ÷ 4.000) × 100 = 3 %.
+                p.mb-0 #[em Ejemplo:] 200 trabajadores por 20 días equivalen a 4.000 días programados; se registran 120 días de ausencia. El índice es (120 ÷ 4.000) × 100 = 3 %.
             .row(numero="4" titulo="Índice de satisfacción del personal.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide el grado de conformidad de los trabajadores con su labor, su equipo y las condiciones de trabajo. Se obtiene por encuesta con escala valorativa. Es ascendente.
-                p.mb-0 Ejemplo: de 180 encuestas aplicadas, el promedio es 4,2 sobre 5, equivalente al 84 % de satisfacción.
+                p.mb-0 #[em Ejemplo:] de 180 encuestas aplicadas, el promedio es 4,2 sobre 5, equivalente al 84 % de satisfacción.
             .row(numero="5" titulo="Índice de compromiso.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la disposición del trabajador a esforzarse por los objetivos de la organización y su intención de permanecer en ella. Es ascendente. Se diferencia de la satisfacción: alguien puede estar conforme con sus condiciones y, aun así, mostrar poco compromiso con los resultados.
-                p.mb-0 Ejemplo: 144 de 180 encuestados manifiestan intención de permanecer al menos dos años más. El índice es (144 ÷ 180) × 100 = 80 %.
+                p.mb-0 #[em Ejemplo:] 144 de 180 encuestados manifiestan intención de permanecer al menos dos años más. El índice es (144 ÷ 180) × 100 = 80 %.
             .row(numero="6" titulo="Índice de productividad por trabajador.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Relaciona el resultado obtenido con el número de trabajadores que lo generaron. Es ascendente.
-                p.mb-0 Ejemplo: el área produjo 6.000 unidades con 50 trabajadores. La productividad es 6.000 ÷ 50 = 120 unidades por trabajador.
+                p.mb-0 #[em Ejemplo:] el área produjo 6.000 unidades con 50 trabajadores. La productividad es 6.000 ÷ 50 = 120 unidades por trabajador.
             .row(numero="7" titulo="Índice de capacitación.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de trabajadores que participaron en actividades de formación durante el período. Es ascendente.
-                p.mb-0 Ejemplo: 150 de 200 trabajadores asistieron al plan anual de formación. El índice es (150 ÷ 200) × 100 = 75 %.
+                p.mb-0 #[em Ejemplo:] 150 de 200 trabajadores asistieron al plan anual de formación. El índice es (150 ÷ 200) × 100 = 75 %.
             .row(numero="8" titulo="Índice de promoción interna.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de vacantes cubiertas con personal de la propia organización. Es ascendente.
-                p.mb-0 Ejemplo: de 20 vacantes del año, 12 se cubrieron internamente. El índice es (12 ÷ 20) × 100 = 60 %.
+                p.mb-0 #[em Ejemplo:] de 20 vacantes del año, 12 se cubrieron internamente. El índice es (12 ÷ 20) × 100 = 60 %.
             .row(numero="9" titulo="Índice de diversidad e inclusión.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la participación de los distintos grupos poblacionales en la planta de personal y en los cargos de dirección. Es ascendente.
-                p.mb-0 Ejemplo: 8 de 25 cargos directivos son ocupados por mujeres. La participación femenina en la dirección es del 32 %.
+                p.mb-0 #[em Ejemplo:] 8 de 25 cargos directivos son ocupados por mujeres. La participación femenina en la dirección es del 32 %.
             .row(numero="10" titulo="Índice de satisfacción del cliente interno.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la percepción de las demás áreas sobre los servicios que presta talento humano, como selección, nómina, bienestar y formación. Es ascendente.
-                p.mb-0 Ejemplo: en la encuesta trimestral, 68 de 80 líderes califican el servicio como satisfactorio. El índice es (68 ÷ 80) × 100 = 85 %.
+                p.mb-0 #[em Ejemplo:] en la encuesta trimestral, 68 de 80 líderes califican el servicio como satisfactorio. El índice es (68 ÷ 80) × 100 = 85 %.
 
       .row.justify-content-center
         .col.col-lg-10.col-12

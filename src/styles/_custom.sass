@@ -69,7 +69,7 @@
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $black !important
 figcaption 
     font-weight: normal !important
 
@@ -126,18 +126,33 @@ figcaption
   background-color: #FFDFD4
   border-radius: 10px
 
+.cajon.C05
+  background-color: #FFDFD4
+
+.cajon.C06
+  background-color: #FECE81
+
+.cajon.C07
+  background-color: #D3F2F4
+  border-radius: 10px
+
 .cajon.C03
   background-color: #D3F2F4
 
 .cajon.C04
   background-color: #FFF0D9
 
+.cajon.C08
+  background-color: #FFF0D9
+  border-radius: 10px
+
 .recuadro-equipo-azul
   background-color: #D3F5F8
   padding: 1.5rem 1.8rem
-  margin-top: 1.5rem
+  margin-top: 0
   margin-left: 0 !important
   margin-right: 0 !important
+  border-radius: 10px !important
 
   > [class*="col-"]
     padding-left: .8rem
@@ -229,29 +244,38 @@ figcaption
       line-height: 1.45
 
 .BG01
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,251,252,1) 25%, rgba(240,251,252,1) 75%, rgba(255,255,255,1) 100%)
-  background-position: center
-  margin-inline: -3rem !important
+  position: relative
+  z-index: 1
+  background: none !important
+  margin-left: 0 !important
+  margin-right: 0 !important
+  padding-top: 1.5rem
+  padding-bottom: 1.8rem
 
-  @media (min-width: 768px) and (max-width: 991.98px)
-    position: relative
-    z-index: 1
-    margin-inline: 0 !important
-    background: none
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 50%
+    width: 100vw
+    transform: translateX(-50%)
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,251,252,1) 18%, rgba(240,251,252,1) 88%, rgba(255,255,255,1) 100%)
+    z-index: -1
 
-    &::before
-      content: ''
-      position: absolute
-      top: 0
-      bottom: 0
-      left: 50%
-      width: 100vw
-      transform: translateX(-50%)
-      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,251,252,1) 25%, rgba(240,251,252,1) 75%, rgba(255,255,255,1) 100%)
-      z-index: -1
+  > .row
+    margin-left: 0 !important
+    margin-right: 0 !important
 
-  @media (max-width: $bp-max-sm)
-    margin-inline: -1.5rem !important
+@media (max-width: 991.98px)
+  .BG01
+    padding-top: 1.3rem
+    padding-bottom: 1.6rem
+
+@media (max-width: 575.98px)
+  .BG01
+    padding-top: 1.2rem
+    padding-bottom: 1.5rem
 
 .BG02
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,244,240,1) 25%, rgba(255,244,240,1) 75%, rgba(255,255,255,1) 100%)
@@ -361,6 +385,46 @@ figcaption
 .slyder-f__btn i
   color: #FB82FF !important
 
+.slyder-etapas-bg
+  background-image: url('../assets/curso/temas/t1/fondo-slyder.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  padding: 2rem 4rem
+  margin-inline: -3rem !important
+  overflow: hidden
+
+  .slyder-f
+    width: 100%
+
+@media (min-width: 768px) and (max-width: 991.98px)
+  .slyder-etapas-bg
+    position: relative
+    z-index: 1
+    background: none !important
+    padding: 2rem 2rem
+    margin-inline: 0 !important
+    overflow: visible
+
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 50%
+      width: 100vw
+      transform: translateX(-50%)
+      background-image: url('../assets/curso/temas/t1/fondo-slyder.png')
+      background-repeat: no-repeat
+      background-position: center
+      background-size: cover
+      z-index: -1
+
+@media (max-width: 575.98px)
+  .slyder-etapas-bg
+    padding: 1.5rem 1rem
+    margin-inline: -1rem !important
+
 .recurso-preguntas-equipo
   > [class*="col-"]
     display: flex
@@ -435,10 +499,11 @@ figcaption
     max-width: 100%
     display: grid
     grid-template-columns: 48px auto 8px
-    align-items: center
+    align-items: stretch
 
   &__icono
-    height: 48px
+    min-height: 48px
+    height: 100%
     background-color: #FFDFD4
     display: flex
     align-items: center
@@ -458,28 +523,32 @@ figcaption
     align-items: center
     padding: .7rem 1rem
     width: auto
-    max-width: 100%
+    max-width: none
 
     h4
-      white-space: nowrap
       color: #12263F
       font-weight: 700
       font-size: 1.1rem
       line-height: 1.25
+      margin-bottom: 0
+      white-space: nowrap
       word-break: normal
-      overflow-wrap: anywhere
+      overflow-wrap: normal
 
   &__barra
-    height: 48px
+    min-height: 48px
+    height: 100%
     background-color: #264A4C
 
 @media (max-width: 991.98px)
   .recurso-titulo-equipo
     &__contenedor
-      grid-template-columns: 46px 1fr 7px
+      width: fit-content
+      max-width: 100%
+      grid-template-columns: 46px auto 7px
 
     &__icono
-      height: 46px
+      min-height: 46px
 
       img
         width: 28px
@@ -488,21 +557,26 @@ figcaption
     &__texto
       min-height: 46px
       padding: .7rem .9rem
+      width: auto
 
       h4
         font-size: 1rem
+        white-space: nowrap
 
     &__barra
-      height: 46px
+      min-height: 46px
 
 @media (max-width: 575.98px)
   .recurso-titulo-equipo
     &__contenedor
       width: 100%
-      grid-template-columns: 42px 1fr 6px
+      max-width: 100%
+      grid-template-columns: 42px minmax(0, 1fr) 6px
+      align-items: stretch
 
     &__icono
-      height: 42px
+      min-height: 42px
+      height: 100%
       padding: .45rem
 
       img
@@ -511,16 +585,44 @@ figcaption
 
     &__texto
       min-height: 42px
-      padding: .65rem .8rem
+      padding: .6rem .75rem
+      min-width: 0
+      max-width: 100%
 
       h4
-        font-size: .95rem
-        line-height: 1.25
+        font-size: .92rem
+        line-height: 1.22
         white-space: normal
         overflow-wrap: break-word
+        word-break: normal
 
     &__barra
-      height: 42px
+      min-height: 42px
+      height: 100%
+
+@media (min-width: 768px) and (max-width: 991.98px)
+  .recurso-titulo-equipo--largo
+    .col-md-7
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+    .recurso-titulo-equipo__contenedor
+      width: 100% !important
+      max-width: 100% !important
+      grid-template-columns: 46px minmax(0, 1fr) 7px
+
+    .recurso-titulo-equipo__texto
+      width: 100% !important
+      max-width: 100% !important
+      min-width: 0
+
+      h4
+        white-space: normal !important
+        overflow-wrap: break-word !important
+        word-break: normal !important
+        font-size: .95rem !important
+        line-height: 1.25 !important
 
 .tarjeta.color-acento-botones.naranja
   background-color: #FF9471 !important
@@ -1503,6 +1605,28 @@ figcaption
         font-size: .8rem !important
         padding: .55rem .35rem !important
 
+.tabla-softwares
+  figcaption
+    display: block
+    width: 100%
+    min-width: 100%
+    background-color: #E6E6E6
+    color: #12263F
+    padding: .6rem .8rem
+    box-sizing: border-box
+
+@media (max-width: 991.98px)
+  .tabla-softwares
+    table,
+    figcaption
+      min-width: 760px
+
+@media (max-width: 575.98px)
+  .tabla-softwares
+    table,
+    figcaption
+      min-width: 720px
+
 .recurso-programacion
   align-items: stretch
 
@@ -1584,9 +1708,24 @@ figcaption
         width: 50px
         max-width: 50px
 
-.tabs-c__tab
-  :active
-    background-color: #FEE6FF
+.tabs-actividades
+  .tabs-c__tab
+    background-color: #FBE4FB !important
+    font-weight: 400 !important
+    color: #12263F !important
+
+    *
+      font-weight: 400 !important
+      color: #12263F !important
+
+  .tabs-c__tab--active
+    background-color: #FFFFFF !important
+    font-weight: 700 !important
+    color: #12263F !important
+
+    *
+      font-weight: 700 !important
+      color: #12263F !important
 
 .recurso-kanban-full
   background-image: url("../assets/curso/temas/t3/fondo-3.svg")
@@ -1743,6 +1882,89 @@ figcaption
       min-height: auto
       padding: 1.5rem 2rem
 
+.recurso-patrimonio--punto-partida
+  width: 100%
+
+  .recurso-patrimonio__img
+    height: 100%
+    min-height: 145px
+    background-color: #D3F2F4
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 1rem
+
+    figure
+      width: 100%
+      height: 100%
+      margin: 0 !important
+      display: flex
+      align-items: center
+      justify-content: center
+
+      img
+        width: 100%
+        max-width: 190px
+        height: auto
+        display: block
+        margin: 0 auto
+
+  .recurso-patrimonio__texto
+    height: 100%
+    min-height: 145px
+    background-color: #FECE81
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: center
+    padding: 1.5rem 2rem
+
+    h4
+      color: #12263F
+      font-weight: 700
+      font-size: 1.05rem
+      line-height: 1.25
+      margin-bottom: .4rem !important
+
+    p
+      color: #12263F
+      line-height: 1.45
+      margin-bottom: 0
+
+@media (max-width: 991.98px)
+  .recurso-patrimonio--punto-partida
+    > .col-lg-9
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+    .recurso-patrimonio__texto
+      width: 100%
+      min-height: auto
+      padding: 1.5rem 2rem
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      justify-content: center
+
+      h4
+        margin-bottom: .5rem !important
+
+@media (max-width: 575.98px)
+  .recurso-patrimonio--punto-partida
+    .recurso-patrimonio__texto
+      padding: 1.3rem 1rem
+      text-align: left
+      align-items: flex-start
+
+      h4
+        font-size: 1rem
+        line-height: 1.25
+
+      p
+        font-size: .95rem
+        line-height: 1.4
+
 .recurso-indicadores-areas
   width: 100%
   background-color: #FFDFD4
@@ -1849,6 +2071,20 @@ figcaption
         font-size: .92rem
         line-height: 1.35
 
+@media (max-width: 991.98px)
+  .recurso-indicadores-areas--sin-img-tablet
+    .recurso-indicadores-areas__col-img
+      display: none !important
+
+    .recurso-indicadores-areas__col-contenido
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
+
+    .recurso-indicadores-areas__contenido
+      padding-left: 0 !important
+
+
 .figura-flujo-ajuste
   figure
     margin-left: 0 !important
@@ -1862,6 +2098,9 @@ figcaption
 
 .recurso-fuentes-info
   align-items: stretch
+  width: 100%
+  margin-left: 0 !important
+  margin-right: 0 !important
 
   > [class*="col-"]
     padding-left: 0 !important
@@ -2041,14 +2280,189 @@ figcaption
         font-size: 1rem
         line-height: 1.4
 
+/**************************************************************/
 
+@media (min-width: 992px) and (max-width: 1400px)
+  .recurso-intro-sin-img-console
+    > .col-lg-4
+      display: none !important
 
+    > .col-lg-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
 
+      .row
+        > .col-lg-auto
+          display: none !important
 
+        > .col-lg-10
+          flex: 0 0 100% !important
+          max-width: 100% !important
+          width: 100% !important
 
+@media (min-width: 992px) and (max-width: 1400px)
+  .recurso-diagnostico-sin-svg-console
+    .recurso-diagnostico-sin-svg-console__svg
+      display: none !important
 
+    .recurso-diagnostico-sin-svg-console__texto
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      width: 100% !important
 
+.recurso-recursos-bg
+  position: relative
+  z-index: 1
+  padding-top: 2rem
+  padding-bottom: 2rem
+  margin-left: 0 !important
+  margin-right: 0 !important
+  overflow: visible
 
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 50%
+    width: 100vw
+    transform: translateX(-50%)
+    background-image: url('../assets/curso/temas/t1/fondo-slyder.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    z-index: -1
+
+  > .col-lg-10
+    position: relative
+    z-index: 2
+
+@media (max-width: 991.98px)
+  .recurso-recursos-bg
+    padding-top: 1.8rem
+    padding-bottom: 1.8rem
+
+    &::before
+      background-position: center
+      background-size: cover
+
+@media (max-width: 575.98px)
+  .recurso-recursos-bg
+    padding-top: 1.5rem
+    padding-bottom: 1.5rem
+
+    &::before
+      background-position: center
+      background-size: cover
+
+.recurso-info-azul--con-titulo
+  .recurso-info-azul__contenido
+    flex-direction: column
+    padding: 3.1rem 2.5rem 1.8rem
+
+    h4
+      max-width: 760px
+      color: #12263F
+      font-weight: 700
+      font-size: 1.05rem
+      line-height: 1.25
+      margin-bottom: 1.5rem !important
+
+    p
+      max-width: 920px
+      text-align: center
+
+@media (max-width: 991.98px)
+  .recurso-info-azul--con-titulo
+    .recurso-info-azul__contenido
+      padding: 2.8rem 1.8rem 1.6rem
+
+      h4
+        font-size: 1rem
+        line-height: 1.25
+        margin-bottom: 1.2rem !important
+
+@media (max-width: 575.98px)
+  .recurso-info-azul--con-titulo
+    .recurso-info-azul__contenido
+      padding: 2.5rem 1.2rem 1.4rem
+
+      h4
+        font-size: .95rem
+        line-height: 1.25
+        margin-bottom: 1rem !important
+
+      p
+        font-size: .9rem
+        line-height: 1.4
+
+.recurso-funciones-indicador
+  > [class*="col-"]
+    display: flex
+
+  &__figure
+    width: 100%
+    height: 100%
+    margin: 0 !important
+    display: flex
+    align-items: stretch
+
+    img
+      width: 100%
+      height: 100%
+      min-height: 250px
+      object-fit: cover
+      border-radius: 8px
+      display: block
+
+.recurso-herramientas-analisis 
+  width: 100% 
+  height: 100%
+  margin-top: 0
+  border-radius: 16px 
+  overflow: hidden
+  display: flex
+  flex-direction: column
+ 
+  &__item 
+    flex: 1
+    padding: 1.5rem 2rem 
+    display: flex
+    align-items: center
+ 
+    p 
+      color: #12263F 
+      font-size: 1rem 
+      line-height: 1.45 
+      margin-bottom: 0 
+ 
+      strong 
+        font-weight: 700 
+ 
+  &__item--amarillo 
+    background-color: #FFF1D9 
+ 
+  &__item--salmon 
+    background-color: #FFDFD4
+
+@media (max-width: 991.98px) 
+  .recurso-herramientas-analisis 
+    margin-top: 0 
+ 
+    &__item 
+      padding: 1.4rem 1.5rem 
+ 
+@media (max-width: 575.98px) 
+  .recurso-herramientas-analisis 
+    border-radius: 12px 
+ 
+    &__item 
+      padding: 1.2rem 1rem 
+ 
+      p 
+        font-size: 1rem 
+        line-height: 1.4
 
 
 
