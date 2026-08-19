@@ -252,19 +252,19 @@
               span #[b Propósito común:] razón de ser del equipo, que orienta las decisiones y da sentido a las tareas.
             li 
               i.lista-ul__vineta
-              | Metas de desempeño: resultados concretos y medibles que traducen el propósito en logros verificables.
+              span #[b Metas de desempeño:] resultados concretos y medibles que traducen el propósito en logros verificables.
             li 
               i.lista-ul__vineta
-              | Roles y responsabilidades: distribución clara de funciones que evita duplicidades y vacíos.
+              span #[b Roles y responsabilidades:] distribución clara de funciones que evita duplicidades y vacíos.
             li 
               i.lista-ul__vineta
-              | Normas de funcionamiento: acuerdos sobre la manera de comunicarse, decidir y resolver las diferencias.
+              span #[b Normas de funcionamiento:] acuerdos sobre la manera de comunicarse, decidir y resolver las diferencias.
             li 
               i.lista-ul__vineta
-              | Comunicación: intercambio permanente de información que mantiene la coordinación entre los integrantes.
+              span #[b Comunicación:] intercambio permanente de información que mantiene la coordinación entre los integrantes.
             li 
               i.lista-ul__vineta
-              | Confianza y cohesión: vínculo que sostiene la cooperación y el compromiso a lo largo del tiempo.
+              span #[b Confianza y cohesión:] vínculo que sostiene la cooperación y el compromiso a lo largo del tiempo.
 
       .row.justify-content-start.mb-4.recurso-titulo-equipo
         .col-lg-4.col-md-7.col-12
@@ -368,22 +368,22 @@
           p Las metas son la expresión concreta y medible del propósito del equipo. Mientras que el objetivo señala el resultado general que se desea alcanzar, la meta precisa cuánto, cómo y en qué tiempo se logrará. Un adecuado planteamiento de metas orienta el esfuerzo colectivo, facilita el seguimiento y fortalece el compromiso.
           p Para que resulten efectivas, las metas del equipo deben reunir ciertas condiciones:
           .cajon.cajon.C02.px-4.py-3
-            ul.lista-ul--color
+            ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
                 span #[b Claras:] formuladas de manera comprensible para todos los integrantes.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Medibles: expresadas en indicadores o cantidades que permitan verificar su cumplimiento.
+                span #[b Medibles:] expresadas en indicadores o cantidades que permitan verificar su cumplimiento.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Alcanzables: retadoras, pero posibles según las capacidades y los recursos disponibles.
+                span #[b Alcanzables:] retadoras, pero posibles según las capacidades y los recursos disponibles.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Relevantes: alineadas con el propósito del equipo y con la estrategia de la organización.
-              li 
+                span #[b Relevantes:] alineadas con el propósito del equipo y con la estrategia de la organización.
+              li.mb-0 
                 <i class="fa-solid fa-certificate"></i>
-                | Delimitadas en el tiempo: con un plazo definido para su consecución.
+                span #[b Delimitadas en el tiempo:] con un plazo definido para su consecución.
         .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t1/img-21.png', alt='')

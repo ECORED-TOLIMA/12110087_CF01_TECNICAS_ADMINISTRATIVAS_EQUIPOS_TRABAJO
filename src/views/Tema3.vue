@@ -28,19 +28,19 @@
                   span #[b Objetivos y metas:] definen qué se quiere lograr y en qué medida; expresan el resultado esperado de forma clara y verificable.
                 li.mb-4 
                   i.lista-ul__vineta
-                  | Actividades y tareas: precisan las acciones concretas que se deben ejecutar para alcanzar cada meta.
+                  span #[b Actividades y tareas:] precisan las acciones concretas que se deben ejecutar para alcanzar cada meta.
                 li.mb-4 
                   i.lista-ul__vineta
-                  | Responsables: indican quién se encarga de cada acción, lo que asegura la rendición de cuentas.
+                  span #[b Responsables:] indican quién se encarga de cada acción, lo que asegura la rendición de cuentas.
                 li.mb-4 
                   i.lista-ul__vineta
-                  | Tiempos de ejecución: establecen cuándo inicia y termina cada actividad, con el fin de ordenar el trabajo.
+                  span #[b Tiempos de ejecución:] establecen cuándo inicia y termina cada actividad, con el fin de ordenar el trabajo.
                 li.mb-4 
                   i.lista-ul__vineta
-                  | Recursos: determinan con qué se cuenta, ya sean humanos, materiales, financieros o tecnológicos.
+                  span #[b Recursos:] determinan con qué se cuenta, ya sean humanos, materiales, financieros o tecnológicos.
                 li.mb-0 
                   i.lista-ul__vineta.mb-0
-                  | Indicadores de seguimiento: permiten medir el avance y verificar el cumplimiento del plan. 
+                  span #[b Indicadores de seguimiento:] permiten medir el avance y verificar el cumplimiento del plan. 
       
       .row.justify-content-center.mb-4
         .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -121,22 +121,22 @@
                 span #[b Claro:] se comprende con facilidad por parte de todos los integrantes del equipo.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Coherente: sus acciones se alinean con los objetivos estratégicos definidos.
+                span #[b Coherente:] sus acciones se alinean con los objetivos estratégicos definidos.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Realista: considera las capacidades y los recursos realmente disponibles.
+                span #[b Realista:] considera las capacidades y los recursos realmente disponibles.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Flexible: se adapta a los cambios o imprevistos del entorno.
+                span #[b Flexible:] se adapta a los cambios o imprevistos del entorno.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Orientado a resultados: cada acción apunta al logro de metas específicas.
+                span #[b Orientado a resultados:] cada acción apunta al logro de metas específicas.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Participativo: involucra a los integrantes en su elaboración, lo que fortalece el compromiso.
+                span #[b Participativo:] involucra a los integrantes en su elaboración, lo que fortalece el compromiso.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Evaluable: permite el seguimiento mediante indicadores que miden su avance.
+                span #[b Evaluable:] permite el seguimiento mediante indicadores que miden su avance.
         .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t3/img-04.png', alt='')
@@ -255,13 +255,13 @@
                 span #[b Entrevistas y encuestas:] Recursos humanos: las personas que ejecutan las actividades, con sus competencias y responsabilidades.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Recursos materiales: los insumos, las herramientas y los equipos necesarios para el trabajo.
+                span #[b Recursos materiales:] los insumos, las herramientas y los equipos necesarios para el trabajo.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Recursos financieros: el presupuesto disponible para cubrir los costos que impliquen las acciones.
+                span #[b Recursos financieros:] el presupuesto disponible para cubrir los costos que impliquen las acciones.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Recursos tecnológicos: las plataformas, los programas y los medios digitales que apoyan la ejecución.
+                span #[b Recursos tecnológicos:] las plataformas, los programas y los medios digitales que apoyan la ejecución.
 
       p A cada recurso se le asigna un tiempo de ejecución y un responsable, de modo que el plan quede completo y listo para llevarse a la práctica.
       p.mb-4 La implementación y ejecución del plan de acción implica llevar a la práctica lo previamente planificado, asegurando que cada actividad y tarea se desarrolle conforme a lo establecido. En esta etapa es fundamental la coordinación entre los miembros del equipo, la asignación clara de responsabilidades y la disponibilidad oportuna de los recursos. 
@@ -386,16 +386,16 @@
                 span #[b Claros:] se formulan con precisión, de modo que todos los integrantes comprendan qué se quiere lograr.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Medibles: incluyen una cantidad o un indicador que permite verificar su cumplimiento.
+                span #[b Medibles:] incluyen una cantidad o un indicador que permite verificar su cumplimiento.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Alcanzables: son retadores, pero posibles según las capacidades y los recursos del equipo.
+                span #[b Alcanzables:] son retadores, pero posibles según las capacidades y los recursos del equipo.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Relevantes: responden a las necesidades identificadas en el diagnóstico y aportan a la estrategia.
+                span #[b Relevantes:] responden a las necesidades identificadas en el diagnóstico y aportan a la estrategia.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Definidos en el tiempo: establecen un plazo concreto para su consecución
+                span #[b Definidos en el tiempo:] establecen un plazo concreto para su consecución
 
       .row.justify-content-center
         .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -488,7 +488,7 @@
         .col-lg-10
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Tabla 2.
-            span Comparativo de mejores softwares de gestión de tareas
+            span Comparativo de mejores #[em softwares] de gestión de tareas
           .tabla-a.color-acento-contenido.mb-4.tabla-plan-accion.tabla-softwares
             table
               thead
@@ -543,7 +543,7 @@
                   td(style="background-color: #F6F6F6;") Android/iOS
                   td(style="background-color: #F6F6F6;") Desde 9 €
                 tr(data-aos="fade-right")
-                  td #[em Todoist]
+                  td Todoist
                   td Individuos y equipos pequeños
                   td Simple, intuitivo.
                   td Limitado para proyectos grandes
@@ -605,19 +605,19 @@
                     span #[b Tareas:] crear, organizar y asignar tareas individuales o grupales, estableciendo prioridades y fechas límite para cada una de ellas.
                   li 
                     i.lista-ul__vineta
-                    | Plazos: establecer fechas límite y duraciones para las tareas, permitiendo una mejor gestión del tiempo y el cumplimiento de los objetivos del proyecto.
+                    span #[b Plazos:] establecer fechas límite y duraciones para las tareas, permitiendo una mejor gestión del tiempo y el cumplimiento de los objetivos del proyecto.
                   li 
                     i.lista-ul__vineta
-                    | Tableros: visualizar y organizar el trabajo en formato Kanban u otras vistas personalizables, permitiendo una gestión visual e intuitiva del flujo de trabajo.
+                    span #[b Tableros:] visualizar y organizar el trabajo en formato Kanban u otras vistas personalizables, permitiendo una gestión visual e intuitiva del flujo de trabajo.
                   li 
                     i.lista-ul__vineta
-                    | Calendarios: planificar y visualizar las tareas en un formato de calendario, permitiendo una mejor organización temporal y la identificación de posibles conflictos o sobrecargas de trabajo.
+                    span #[b Calendarios:] planificar y visualizar las tareas en un formato de calendario, permitiendo una mejor organización temporal y la identificación de posibles conflictos o sobrecargas de trabajo.
                   li 
                     i.lista-ul__vineta
-                    | Seguimiento: monitorizar el progreso de las tareas en tiempo real, con actualizaciones automáticas y notificaciones sobre cambios importantes.
+                    span #[b Seguimiento:] monitorizar el progreso de las tareas en tiempo real, con actualizaciones automáticas y notificaciones sobre cambios importantes.
                   li.mb-0 
                     i.lista-ul__vineta
-                    | Documentos: adjuntar y almacenar archivos relevantes para las tareas, como documentos de referencia, imágenes o recursos necesarios para completar el trabajo.
+                    span #[b Documentos:] adjuntar y almacenar archivos relevantes para las tareas, como documentos de referencia, imágenes o recursos necesarios para completar el trabajo.
                 
             .col-lg-3.col-md-6.col-10.d-none.d-lg-block
               figure.mb-0.recurso-kanban-full__img
@@ -636,19 +636,19 @@
                     span #[b Colaboración:] facilitar la comunicación entre miembros del equipo mediante comentarios, menciones y compartición de archivos.
                   li 
                     i.lista-ul__vineta
-                    | Automatización: crear flujos de trabajo automatizados para tareas repetitivas, como notificaciones, actualizaciones de estado o asignaciones, ahorrando tiempo y reduciendo errores manuales.
+                    span #[b Automatización:] crear flujos de trabajo automatizados para tareas repetitivas, como notificaciones, actualizaciones de estado o asignaciones, ahorrando tiempo y reduciendo errores manuales.
                   li 
                     i.lista-ul__vineta
-                    span Integración: conectar el #[em software] con otras herramientas y servicios utilizados por el equipo, como almacenamiento en la nube, correo electrónico o aplicaciones de comunicación, creando un ecosistema de trabajo más eficiente y centralizado
+                    span #[b Integración:] conectar el #[em software] con otras herramientas y servicios utilizados por el equipo, como almacenamiento en la nube, correo electrónico o aplicaciones de comunicación, creando un ecosistema de trabajo más eficiente y centralizado
                   li 
                     i.lista-ul__vineta
-                    | Interfaz: diseño intuitivo y fácil de usar que permite a los usuarios navegar y utilizar las funciones del #[em software] de manera eficiente, con una curva de aprendizaje mínima y una experiencia de usuario optimizada.
+                    span #[b Interfaz:] diseño intuitivo y fácil de usar que permite a los usuarios navegar y utilizar las funciones del #[em software] de manera eficiente, con una curva de aprendizaje mínima y una experiencia de usuario optimizada.
                   li 
                     i.lista-ul__vineta
-                    | Flexibilidad: capacidad de adaptación a diferentes metodologías de trabajo y necesidades, permitiendo personalizar flujos de trabajo, vistas y campos según los requisitos particulares de cada proyecto u organización.
+                    span #[b Flexibilidad:] capacidad de adaptación a diferentes metodologías de trabajo y necesidades, permitiendo personalizar flujos de trabajo, vistas y campos según los requisitos particulares de cada proyecto u organización.
                   li.mb-0 
                     i.lista-ul__vineta
-                    | App móvil: acceso a las funcionalidades principales desde dispositivos móviles, permitiendo gestionar tareas y proyectos en cualquier momento y lugar.
+                    span #[b App móvil:] acceso a las funcionalidades principales desde dispositivos móviles, permitiendo gestionar tareas y proyectos en cualquier momento y lugar.
 
       .row.justify-content-center
         .col.col-lg-10.col-12

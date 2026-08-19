@@ -74,10 +74,10 @@
         .col.col-lg-9.col-12.order-lg-2.order-2
           .recurso-herramientas-analisis
             .recurso-herramientas-analisis__item.recurso-herramientas-analisis__item--amarillo
-              p.mb-0 Función descriptiva: aporta información sobre el estado real de un programa o una actuación, sin emitir juicios; simplemente muestra los hechos tal como son. Por ejemplo, un indicador que registra el número de estudiantes que reciben una beca en un semestre y lo compara con el semestre anterior.
+              p.mb-0 #[b Función descriptiva:] aporta información sobre el estado real de un programa o una actuación, sin emitir juicios; simplemente muestra los hechos tal como son. Por ejemplo, un indicador que registra el número de estudiantes que reciben una beca en un semestre y lo compara con el semestre anterior.
 
             .recurso-herramientas-analisis__item.recurso-herramientas-analisis__item--salmon
-              p.mb-0 Función valorativa: añade a la información descriptiva un juicio de valor, basado en datos objetivos, sobre si el desempeño es adecuado frente a una necesidad. Por ejemplo, un indicador que relaciona el número de becas entregadas con los estudiantes que las necesitan, y revela si la cobertura es suficiente.
+              p.mb-0 #[b Función valorativa:] añade a la información descriptiva un juicio de valor, basado en datos objetivos, sobre si el desempeño es adecuado frente a una necesidad. Por ejemplo, un indicador que relaciona el número de becas entregadas con los estudiantes que las necesitan, y revela si la cobertura es suficiente.
 
       p.mb-4 Ambas funciones se complementan: la descriptiva ofrece los datos y la valorativa los interpreta a la luz de los objetivos. Un indicador cobra pleno sentido cuando no solo informa qué ocurre, sino que orienta sobre si el resultado es satisfactorio y qué decisiones conviene tomar.
 
@@ -125,16 +125,16 @@
                     span #[b Pertinencia:] se refiere a los procesos y productos esenciales de la institución, de modo que mida lo que realmente importa para su misión y no aspectos secundarios. Ejemplo: en un hospital, medir el tiempo de atención a los pacientes y no el número de reuniones internas. 
                   li 
                     i.lista-ul__vineta
-                    | Independencia: no depende de factores externos ajenos a la gestión, como la situación del país o la actividad de terceros, para que refleje el desempeño propio. Ejemplo: medir los graduados de un programa, sin atribuir el resultado a la economía nacional. 
+                    span #[b Independencia:] no depende de factores externos ajenos a la gestión, como la situación del país o la actividad de terceros, para que refleje el desempeño propio. Ejemplo: medir los graduados de un programa, sin atribuir el resultado a la economía nacional. 
                   li 
                     i.lista-ul__vineta
-                    | Costo: la información necesaria para calcularlo se obtiene a un costo razonable, sin exigir recursos desproporcionados. Ejemplo: usar los registros de matrícula ya existentes en lugar de contratar una encuesta costosa. 
+                    span #[b Costo:] la información necesaria para calcularlo se obtiene a un costo razonable, sin exigir recursos desproporcionados. Ejemplo: usar los registros de matrícula ya existentes en lugar de contratar una encuesta costosa. 
                   li 
                     i.lista-ul__vineta
-                    | Confiabilidad: ofrece resultados dignos de confianza, iguales sin importar quién realice la medición, si se aplican los mismos criterios. Ejemplo: dos analistas que calculan la deserción con los mismos datos obtienen la misma cifra. 
+                    span #[b Confiabilidad:] ofrece resultados dignos de confianza, iguales sin importar quién realice la medición, si se aplican los mismos criterios. Ejemplo: dos analistas que calculan la deserción con los mismos datos obtienen la misma cifra. 
                   li 
                     i.lista-ul__vineta
-                    | Simplicidad: es de fácil comprensión y está libre de complejidades, de manera que cualquier persona entienda qué mide. Ejemplo: expresar la cobertura como un porcentaje claro de beneficiarios atendidos frente al total previsto. 
+                    span #[b Simplicidad:] es de fácil comprensión y está libre de complejidades, de manera que cualquier persona entienda qué mide. Ejemplo: expresar la cobertura como un porcentaje claro de beneficiarios atendidos frente al total previsto. 
 
             .col-lg-3.col-md-6.col-10.d-none.d-lg-block
               figure.mb-0.recurso-kanban-full__img
@@ -153,19 +153,19 @@
                     span #[b Oportunidad:] se genera en el momento adecuado, según el tipo de indicador y la necesidad de medición y difusión, para apoyar las decisiones a tiempo. Ejemplo: reportar las ventas cada mes y no un año después. 
                   li 
                     i.lista-ul__vineta
-                    | No redundancia: es único y no repite lo que ya miden otros indicadores, para evitar duplicar la información. Ejemplo: no crear dos indicadores que midan lo mismo, como asistencia y presentismo. 
+                    span #[b No redundancia:] es único y no repite lo que ya miden otros indicadores, para evitar duplicar la información. Ejemplo: no crear dos indicadores que midan lo mismo, como asistencia y presentismo. 
                   li 
                     i.lista-ul__vineta
-                    | Focalizado en áreas controlables: se centra en aspectos que la organización puede corregir y genera responsabilidades directas en los funcionarios. Ejemplo: medir los tiempos de respuesta de un trámite que depende del propio equipo. 
+                    span #[b Focalizado en áreas controlables:] se centra en aspectos que la organización puede corregir y genera responsabilidades directas en los funcionarios. Ejemplo: medir los tiempos de respuesta de un trámite que depende del propio equipo. 
                   li 
                     i.lista-ul__vineta
-                    | Participación: su elaboración involucra a los actores relevantes, lo que asegura su legitimidad y refuerza el compromiso con los objetivos. Ejemplo: definir los indicadores de un área junto con las personas que ejecutan las tareas. 
+                    span #[b Participación:] su elaboración involucra a los actores relevantes, lo que asegura su legitimidad y refuerza el compromiso con los objetivos. Ejemplo: definir los indicadores de un área junto con las personas que ejecutan las tareas. 
                   li 
                     i.lista-ul__vineta
-                    | Disponibilidad: los datos básicos para construirlo son de fácil obtención, sin restricciones de ningún tipo. Ejemplo: apoyarse en los sistemas de información institucionales que ya registran los datos requeridos. 
+                    span #[b Disponibilidad:] los datos básicos para construirlo son de fácil obtención, sin restricciones de ningún tipo. Ejemplo: apoyarse en los sistemas de información institucionales que ya registran los datos requeridos. 
                   li.mb-0 
                     i.lista-ul__vineta
-                    | Sensibilidad: identifica los cambios de las variables a través del tiempo, de modo que refleje las mejoras o los retrocesos. Ejemplo: un indicador de satisfacción que muestra las variaciones mes a mes.
+                    span #[b Sensibilidad:] identifica los cambios de las variables a través del tiempo, de modo que refleje las mejoras o los retrocesos. Ejemplo: un indicador de satisfacción que muestra las variaciones mes a mes.
 
       .row.justify-content-center
         .col.col-lg-10.col-12
@@ -632,28 +632,28 @@
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Nombre del indicador: expresión clara de lo que se desea medir (sin incluir cifras).
+                span #[b Nombre del indicador:] expresión clara de lo que se desea medir (sin incluir cifras).
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Definición u objetivo: descripción breve de la finalidad del indicador.
+                span #[b Definición u objetivo:] descripción breve de la finalidad del indicador.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Fórmula de cálculo: expresión matemática para determinar el valor (p. ej., porcentaje de cumplimiento).
+                span #[b Fórmula de cálculo:] expresión matemática para determinar el valor (p. ej., porcentaje de cumplimiento).
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Unidad de medida: porcentaje, número absoluto, días, pesos, entre otros.
+                span #[b Unidad de medida:] porcentaje, número absoluto, días, pesos, entre otros.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Periodicidad: frecuencia de reporte (diario, mensual, trimestral, anual).
+                span #[b Periodicidad:] frecuencia de reporte (diario, mensual, trimestral, anual).
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Fuente de datos: origen de la información utilizada.
+                span #[b Fuente de datos:] origen de la información utilizada.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Meta: valor objetivo que se espera alcanzar en el periodo definido.
+                span #[b Meta:] valor objetivo que se espera alcanzar en el periodo definido.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Responsables: personas o áreas encargadas de calcular, analizar y reportar el resultado. 
+                span #[b Responsables:] personas o áreas encargadas de calcular, analizar y reportar el resultado. 
 
           .cajon.cajon.C04.color-primario.px-4.py-3
             p.mb-0(data-aos="fade-down") La ficha técnica es el documento que estandariza la medición de un indicador. En ella se registran los elementos que hacen posible su lectura y su cálculo: el nombre, la definición u objetivo, la fórmula, la unidad de medida, la periodicidad, las fuentes de datos, las metas y los rangos de tolerancia. Su finalidad no consiste en documentar para cumplir un requisito; consiste en asegurar que el indicador se interprete y se calcule siempre de la misma forma, con independencia de quién lo consulte o de los cambios de personal. El resultado esperado es doble: series de datos comparables en el tiempo y decisiones de gestión sustentadas en información verificable.
@@ -841,43 +841,43 @@
             .row(numero="1" titulo="Índice de rotación de personal.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de trabajadores que se desvinculan durante un período respecto del total de la planta. Es descendente: un valor alto sugiere dificultades de clima laboral, de selección o de compensación.
-                p.mb-0 #[em Ejemplo:] en una empresa con 200 trabajadores se retiran 16 durante el semestre. El índice es (16 ÷ 200) × 100 = 8 %.
+                p.mb-0 Ejemplo: en una empresa con 200 trabajadores se retiran 16 durante el semestre. El índice es (16 ÷ 200) × 100 = 8 %.
             .row(numero="2" titulo="Tiempo promedio de contratación.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide los días transcurridos entre la apertura de una vacante y la vinculación efectiva del candidato. Es descendente: cuantos menos días, más ágil resulta el proceso de selección.
-                p.mb-0 #[em Ejemplo:] en el trimestre se cubrieron cinco vacantes en 40, 35, 50, 30 y 45 días. El promedio es 200 ÷ 5 = 40 días.
+                p.mb-0 Ejemplo: en el trimestre se cubrieron cinco vacantes en 40, 35, 50, 30 y 45 días. El promedio es 200 ÷ 5 = 40 días.
             .row(numero="3" titulo="Índice de ausentismo.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de días no laborados frente a los días programados en el período. Es descendente.
-                p.mb-0 #[em Ejemplo:] 200 trabajadores por 20 días equivalen a 4.000 días programados; se registran 120 días de ausencia. El índice es (120 ÷ 4.000) × 100 = 3 %.
+                p.mb-0 Ejemplo: 200 trabajadores por 20 días equivalen a 4.000 días programados; se registran 120 días de ausencia. El índice es (120 ÷ 4.000) × 100 = 3 %.
             .row(numero="4" titulo="Índice de satisfacción del personal.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide el grado de conformidad de los trabajadores con su labor, su equipo y las condiciones de trabajo. Se obtiene por encuesta con escala valorativa. Es ascendente.
-                p.mb-0 #[em Ejemplo:] de 180 encuestas aplicadas, el promedio es 4,2 sobre 5, equivalente al 84 % de satisfacción.
+                p.mb-0 Ejemplo: de 180 encuestas aplicadas, el promedio es 4,2 sobre 5, equivalente al 84 % de satisfacción.
             .row(numero="5" titulo="Índice de compromiso.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la disposición del trabajador a esforzarse por los objetivos de la organización y su intención de permanecer en ella. Es ascendente. Se diferencia de la satisfacción: alguien puede estar conforme con sus condiciones y, aun así, mostrar poco compromiso con los resultados.
-                p.mb-0 #[em Ejemplo:] 144 de 180 encuestados manifiestan intención de permanecer al menos dos años más. El índice es (144 ÷ 180) × 100 = 80 %.
+                p.mb-0 Ejemplo: 144 de 180 encuestados manifiestan intención de permanecer al menos dos años más. El índice es (144 ÷ 180) × 100 = 80 %.
             .row(numero="6" titulo="Índice de productividad por trabajador.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Relaciona el resultado obtenido con el número de trabajadores que lo generaron. Es ascendente.
-                p.mb-0 #[em Ejemplo:] el área produjo 6.000 unidades con 50 trabajadores. La productividad es 6.000 ÷ 50 = 120 unidades por trabajador.
+                p.mb-0 Ejemplo: el área produjo 6.000 unidades con 50 trabajadores. La productividad es 6.000 ÷ 50 = 120 unidades por trabajador.
             .row(numero="7" titulo="Índice de capacitación.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de trabajadores que participaron en actividades de formación durante el período. Es ascendente.
-                p.mb-0 #[em Ejemplo:] 150 de 200 trabajadores asistieron al plan anual de formación. El índice es (150 ÷ 200) × 100 = 75 %.
+                p.mb-0 Ejemplo: 150 de 200 trabajadores asistieron al plan anual de formación. El índice es (150 ÷ 200) × 100 = 75 %.
             .row(numero="8" titulo="Índice de promoción interna.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la proporción de vacantes cubiertas con personal de la propia organización. Es ascendente.
-                p.mb-0 #[em Ejemplo:] de 20 vacantes del año, 12 se cubrieron internamente. El índice es (12 ÷ 20) × 100 = 60 %.
+                p.mb-0 Ejemplo: de 20 vacantes del año, 12 se cubrieron internamente. El índice es (12 ÷ 20) × 100 = 60 %.
             .row(numero="9" titulo="Índice de diversidad e inclusión.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la participación de los distintos grupos poblacionales en la planta de personal y en los cargos de dirección. Es ascendente.
-                p.mb-0 #[em Ejemplo:] 8 de 25 cargos directivos son ocupados por mujeres. La participación femenina en la dirección es del 32 %.
+                p.mb-0 Ejemplo: 8 de 25 cargos directivos son ocupados por mujeres. La participación femenina en la dirección es del 32 %.
             .row(numero="10" titulo="Índice de satisfacción del cliente interno.")
               .col-12.mb-4.mb-md-0
                 p.mb-0 Mide la percepción de las demás áreas sobre los servicios que presta talento humano, como selección, nómina, bienestar y formación. Es ascendente.
-                p.mb-0 #[em Ejemplo:] en la encuesta trimestral, 68 de 80 líderes califican el servicio como satisfactorio. El índice es (68 ÷ 80) × 100 = 85 %.
+                p.mb-0 Ejemplo: en la encuesta trimestral, 68 de 80 líderes califican el servicio como satisfactorio. El índice es (68 ÷ 80) × 100 = 85 %.
 
       .row.justify-content-center
         .col.col-lg-10.col-12

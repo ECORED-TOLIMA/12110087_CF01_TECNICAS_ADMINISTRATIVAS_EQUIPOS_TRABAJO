@@ -47,7 +47,8 @@ export default {
             },
             {
               id: 'c',
-              texto: 'La implementación de software de última generación.',
+              texto:
+                'La implementación de <em>software</em> de última generación.',
               esCorrecta: false,
             },
             {
@@ -643,7 +644,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Comprar un software especializado en análisis de datos masivos.',
+                'Comprar un <em>software</em> especializado en análisis de datos masivos.',
               esCorrecta: false,
             },
             {

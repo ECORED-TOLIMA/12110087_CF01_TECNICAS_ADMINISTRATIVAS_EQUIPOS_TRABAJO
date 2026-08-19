@@ -274,17 +274,17 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--C01")
             .row(titulo="Análisis interno")
               .col-12.mb-0.mb-md-0
-                p consiste en examinar la estructura, los procesos, la cultura y los recursos con que cuenta el equipo, con el fin de comprender cómo funciona por dentro e identificar sus fortalezas y debilidades. Estudia la forma en que se organizan las áreas, cómo circula la información y cómo se toman las decisiones.
+                p Consiste en examinar la estructura, los procesos, la cultura y los recursos con que cuenta el equipo, con el fin de comprender cómo funciona por dentro e identificar sus fortalezas y debilidades. Estudia la forma en que se organizan las áreas, cómo circula la información y cómo se toman las decisiones.
                 p.mb-0 #[b Ejemplo 1:] una cooperativa lechera de Nariño revisa cómo se coordinan sus asociados y cómo fluye la información entre ellos.
                 p.mb-0 #[b Ejemplo 2:] una empresa de #[em software] en Medellín analiza cómo distribuye las tareas y toma las decisiones entre sus desarrolladores.
             .row(titulo="Análisis externo")
               .col-12.mb-0.mb-md-0
-                p competencia y los cambios legales, económicos, sociales y tecnológicos que pueden influir en su desempeño. Permite anticipar oportunidades y amenazas, y adaptar las decisiones a las condiciones del contexto.
+                p Competencia y los cambios legales, económicos, sociales y tecnológicos que pueden influir en su desempeño. Permite anticipar oportunidades y amenazas, y adaptar las decisiones a las condiciones del contexto.
                 p.mb-0 #[b Ejemplo 1:] una empresa exportadora de café del Huila estudia la variación del precio internacional y las nuevas normas fitosanitarias.
                 p.mb-0 #[b Ejemplo 2:] un comercio de Barranquilla evalúa la llegada de nuevos competidores y los cambios en el consumo local.
             .row(titulo="Análisis de recursos humanos")
               .col-12.mb-0.mb-md-0
-                p necesidades de los colaboradores, pues son las personas quienes hacen posible el trabajo del equipo. Examina aspectos como la satisfacción laboral, la capacitación requerida y la rotación del personal, con el fin de fortalecer el talento humano.
+                p Necesidades de los colaboradores, pues son las personas quienes hacen posible el trabajo del equipo. Examina aspectos como la satisfacción laboral, la capacitación requerida y la rotación del personal, con el fin de fortalecer el talento humano.
                 p.mb-0 #[b Ejemplo 1:] un hospital público de Bogotá mide la carga laboral y las necesidades de capacitación de su personal de enfermería.
                 p.mb-0 #[b Ejemplo 2:] un hotel del Eje Cafetero analiza la satisfacción de sus empleados y la rotación del personal en temporada alta.
       
@@ -416,19 +416,19 @@
           LineaTiempoD.color-acento-botones.especial.mb-4
             .row(numero="1" titulo="Análisis FODA")
               .col-12.mb-4.mb-md-0
-                p.mb-0 identifica las fortalezas, oportunidades, debilidades y amenazas de la organización, y combina el análisis interno con el del entorno. Por ejemplo, una panadería de Bucaramanga puede reconocer como fortaleza la calidad de su pan y como amenaza la llegada de nuevas cadenas al barrio.
+                p.mb-0 Identifica las fortalezas, oportunidades, debilidades y amenazas de la organización, y combina el análisis interno con el del entorno. Por ejemplo, una panadería de Bucaramanga puede reconocer como fortaleza la calidad de su pan y como amenaza la llegada de nuevas cadenas al barrio.
             .row(numero="2" titulo="Modelo 7S de McKinsey")
               .col-12.mb-4.mb-md-0
-                p.mb-0 analiza la alineación entre siete elementos internos: estrategia, estructura, sistemas, valores compartidos, estilo, personal y habilidades. Por ejemplo, una empresa de servicios en Cali puede revisar si su estilo de liderazgo y las habilidades de su personal responden a su estrategia de crecimiento.
+                p.mb-0 Analiza la alineación entre siete elementos internos: estrategia, estructura, sistemas, valores compartidos, estilo, personal y habilidades. Por ejemplo, una empresa de servicios en Cali puede revisar si su estilo de liderazgo y las habilidades de su personal responden a su estrategia de crecimiento.
             .row(numero="3" titulo="Análisis PESTEL")
               .col-12.mb-4.mb-md-0
-                p.mb-0 evalúa los factores externos que afectan a la organización: políticos, económicos, sociales, tecnológicos, ecológicos y legales. Por ejemplo, una empresa agrícola del Meta puede analizar cómo una nueva normativa ambiental y las variaciones del clima inciden en su producción y en sus costos.
+                p.mb-0 Evalúa los factores externos que afectan a la organización: políticos, económicos, sociales, tecnológicos, ecológicos y legales. Por ejemplo, una empresa agrícola del Meta puede analizar cómo una nueva normativa ambiental y las variaciones del clima inciden en su producción y en sus costos.
             .row(numero="4" titulo="Cadena de valor de Porter")
               .col-12.mb-4.mb-md-0
-                p.mb-0 examina las actividades internas de la organización para identificar dónde se genera valor y dónde se puede mejorar. Por ejemplo, un taller de confecciones en Pereira puede revisar cada etapa, desde el corte hasta la entrega, para reducir tiempos y desperdicios.
+                p.mb-0 Examina las actividades internas de la organización para identificar dónde se genera valor y dónde se puede mejorar. Por ejemplo, un taller de confecciones en Pereira puede revisar cada etapa, desde el corte hasta la entrega, para reducir tiempos y desperdicios.
             .row(numero="5" titulo="Encuestas y entrevistas")
               .col-12.mb-4.mb-md-0
-                p.mb-0 recogen información directa sobre las percepciones y las necesidades de las personas para medir el clima y la cultura. Por ejemplo, una alcaldía municipal de Boyacá puede aplicar encuestas de satisfacción a sus funcionarios para conocer el ambiente laboral y detectar oportunidades de mejora.
+                p.mb-0 Recogen información directa sobre las percepciones y las necesidades de las personas para medir el clima y la cultura. Por ejemplo, una alcaldía municipal de Boyacá puede aplicar encuestas de satisfacción a sus funcionarios para conocer el ambiente laboral y detectar oportunidades de mejora.
 
       p La selección de la herramienta adecuada depende del objetivo del diagnóstico y del tipo de información que se busca. Su aplicación debe ser rigurosa y ética para que los resultados sean confiables. Empleados de este modo, estos instrumentos convierten los datos en conocimiento útil y permiten profundizar en el estudio del equipo desde dos perspectivas complementarias, la interna y la externa, que se desarrollan en el siguiente apartado.
 
