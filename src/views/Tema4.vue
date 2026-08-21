@@ -658,7 +658,6 @@
           .cajon.cajon.C04.color-primario.px-4.py-3
             p.mb-0(data-aos="fade-down") La ficha técnica es el documento que estandariza la medición de un indicador. En ella se registran los elementos que hacen posible su lectura y su cálculo: el nombre, la definición u objetivo, la fórmula, la unidad de medida, la periodicidad, las fuentes de datos, las metas y los rangos de tolerancia. Su finalidad no consiste en documentar para cumplir un requisito; consiste en asegurar que el indicador se interprete y se calcule siempre de la misma forma, con independencia de quién lo consulte o de los cambios de personal. El resultado esperado es doble: series de datos comparables en el tiempo y decisiones de gestión sustentadas en información verificable.
 
-      p Definidos los ocho componentes, el paso siguiente consiste en consolidarlos en un formato único. La siguiente tabla presenta el modelo de ficha técnica, que desglosa la fórmula en numerador y denominador e incorpora dos campos: el rango de tolerancia, con sus niveles excelente, aceptable e inaceptable, y el análisis de la medición.
       p.mb-4 La siguiente tabla presenta el modelo de ficha técnica. Además de los ocho componentes descritos, desglosa la fórmula en numerador y denominador; asimismo, incorpora dos campos: el rango de tolerancia, que fija los niveles excelente, aceptable e inaceptable, y el análisis de la medición, donde se interpreta el resultado.
 
       .row.justify-content-center.mb-4(data-aos="fade-left")
