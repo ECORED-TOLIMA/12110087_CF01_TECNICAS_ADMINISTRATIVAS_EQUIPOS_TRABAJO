@@ -58,7 +58,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Función de los indicadores
@@ -104,7 +104,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Características de los indicadores
@@ -320,7 +320,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Definir el nombre del indicador y describir la fórmula de cálculo 
@@ -342,7 +342,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Claves para la formulación y nombre del indicador
@@ -380,7 +380,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Metodología para la construcción de indicadores
@@ -444,28 +444,28 @@
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t4/img-17.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t4/img-17.svg", alt="").img60.m-auto
             h4.text-center Porcentaje
             p.mb-0 Expresa la proporción de una parte respecto a un total, multiplicada por cien. Por ejemplo, el porcentaje de metas cumplidas frente a las programadas.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t4/img-17.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t4/img-17.svg", alt="").img60.m-auto
             h4.text-center Tasa de variación
             p.mb-0 Mide el cambio de una variable entre dos periodos. Por ejemplo, el aumento o la disminución de las ventas de un año a otro.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t4/img-17.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t4/img-17.svg", alt="").img60.m-auto
             h4.text-center Razón o promedio
             p.mb-0 Relaciona dos cantidades o calcula un valor medio. Por ejemplo, el número de estudiantes por docente.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t4/img-17.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t4/img-17.svg", alt="").img60.m-auto
             h4.text-center Índices
             p.mb-0 Combinan varias variables en un solo valor de referencia. Por ejemplo, un índice de satisfacción que resume varios aspectos del servicio.
 
@@ -473,7 +473,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Criterios técnicos para la selección de indicadores
@@ -556,7 +556,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Recopilación de datos y establecimiento de las fuentes de los datos o medios de verificación 
@@ -577,7 +577,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Establecer las metas
@@ -598,7 +598,7 @@
           .row
             .col-md-5.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/t4/img-21.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/t4/img-21.png', alt='')
             .col-md-6
               p Expresa la magnitud que se espera alcanzar y la unidad en que se medirá, de modo que el resultado pueda compararse de manera objetiva con lo planeado. Su formulación exige tres elementos: la unidad de medida, que puede ser porcentaje, kilómetros, número de beneficiarios o días promedio; la línea base, que refleja la situación actual, y el valor esperado al final del período. Sin ellos la meta expresa una intención y no un compromiso verificable.
               p #[em #[b Ejemplo:]] la expresión “mejorar la cobertura del programa de vivienda rural” no constituye una meta medible, porque no precisa cuánto debe mejorar. La formulación correcta es “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados”. En ella el porcentaje es la unidad de medida, el 70 % corresponde a la línea base y el 85 % al valor esperado.
@@ -607,7 +607,7 @@
           .row
             .col-md-5.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/t4/img-22.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/t4/img-22.png', alt='')
             .col-md-6
               p Delimita la meta en el tiempo mediante dos referencias: la fecha tope en que debe alcanzarse el valor propuesto y la periodicidad con que se medirá el avance, que puede ser bimestral, trimestral, anual o quinquenal. La fecha tope permite emitir el juicio final sobre el cumplimiento; la periodicidad indica cada cuánto se recolectan los datos y se reporta el resultado, lo que hace posible detectar las desviaciones cuando todavía existe margen suficiente para corregirlas.
               p #[em #[b Ejemplo:]] la meta del literal anterior se completa así: “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados, al 31 de diciembre de 2026, con medición trimestral del avance”. La fecha tope establece el momento de la evaluación final y las mediciones de marzo, junio y septiembre permiten verificar si el ritmo de ejecución conduce al resultado previsto.
@@ -739,7 +739,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Dirección esperada del indicador
@@ -776,7 +776,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Precauciones al emitir el juicio de desempeño
@@ -800,7 +800,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Alcance real de la herramienta

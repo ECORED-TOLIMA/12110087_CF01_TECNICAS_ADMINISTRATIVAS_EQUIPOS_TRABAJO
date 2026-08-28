@@ -55,7 +55,7 @@
         .col-lg-10.col-12
           .podcast-recurso.podcast-recurso--final
             .podcast-recurso__imagen
-              img(src='@/assets/curso/temas/t3/img-03.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t3/img-03.svg', alt='')
 
             .podcast-recurso__contenido
               .podcast-recurso__audio
@@ -270,7 +270,7 @@
         .col-lg-10.col-12
           .recurso-info-azul
             .recurso-info-azul__icono
-              img(src='@/assets/curso/temas/t2/img-18.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t2/img-18.svg', alt='')
 
             .recurso-info-azul__contenido
               p.mb-0 La ejecución requiere, además, una comunicación efectiva que permita resolver los imprevistos y ajustar las acciones cuando sea necesario. De esta manera, el plan deja de ser un documento teórico y se convierte en una herramienta dinámica que guía el accionar del equipo hacia el logro de los objetivos propuestos.
@@ -418,12 +418,12 @@
       .row.justify-content-center.mb-4.recurso-programacion
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure.mb-0.recurso-programacion__figure
-            img(src='@/assets/curso/temas/t3/img-18.png', alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/t3/img-18.png', alt='')
 
         .col.col-lg-8.col-12.order-lg-2.order-2
           .recurso-programacion__cajon
             .recurso-programacion__icono
-              img(src='@/assets/curso/temas/t3/img-20.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t3/img-20.svg', alt='')
 
             p.mb-0 La programación de actividades consiste en organizar de manera secuencial y lógica las acciones que deben ejecutarse para cumplir los objetivos del plan. Este proceso implica establecer tiempos, responsables y condiciones de ejecución, permitiendo una adecuada gestión del trabajo dentro del equipo.
 
@@ -447,7 +447,7 @@
           .row
             .col-md-5.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/t3/img-21.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/t3/img-21.png', alt='')
             .col-md-6
               p Consiste en identificar y elegir las acciones que generan mayor impacto en el logro de los objetivos, ya que no todas tienen la misma importancia. Requiere analizar las necesidades del equipo y alinear las actividades con la estrategia y con las prioridades del diagnóstico. Cuando se realiza de forma participativa, optimiza los recursos, evita las tareas innecesarias y fortalece el compromiso del equipo.
               p #[b Ejemplo 1:] una fundación social de Cali, con recursos limitados, elige las jornadas de formación que más benefician a la comunidad y aplaza las actividades administrativas menos urgentes.
@@ -457,7 +457,7 @@
           .row
             .col-md-5.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/t3/img-22.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/t3/img-22.png', alt='')
             .col-md-6
               p Establece el orden de ejecución de las tareas según su importancia y su urgencia, de modo que el equipo concentre sus esfuerzos donde generan mayor impacto. Para priorizar bien, se consideran la disponibilidad de recursos, el tiempo requerido, el nivel de impacto y las consecuencias de no ejecutar una acción. Así se decide con criterio, se gestiona mejor el tiempo y se reduce la sobrecarga.
               p #[b Ejemplo 1:] en una clínica de Medellín, el equipo atiende primero los casos urgentes y programa después los trámites administrativos.
@@ -576,7 +576,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Principales funciones de un #[em software] de gestión de tareas
@@ -621,12 +621,12 @@
                 
             .col-lg-3.col-md-6.col-10.d-none.d-lg-block
               figure.mb-0.recurso-kanban-full__img
-                img(src='@/assets/curso/temas/t3/img-24.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t3/img-24.svg', alt='')
 
           .row.justify-content-center.align-items-center
             .col-lg-3.col-md-6.col-10.d-none.d-lg-block
               figure.mb-0.recurso-kanban-full__img
-                img(src='@/assets/curso/temas/t3/img-25.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/t3/img-25.svg', alt='')
 
             .col-lg-9.col-12
               .recurso-kanban-full__cajon
@@ -679,7 +679,7 @@
         .col-lg-10.col-12
           .recurso-info-azul
             .recurso-info-azul__icono
-              img(src='@/assets/curso/temas/t2/img-18.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t2/img-18.svg', alt='')
 
             .recurso-info-azul__contenido
               p.mb-0 Para que resulte útil, la proyección de recursos debe ser realista y ajustarse a las capacidades del equipo. Planear con lo que realmente se dispone garantiza la viabilidad del plan de acción y favorece el logro de los objetivos establecidos.
@@ -721,7 +721,7 @@ export default {
 
   data() {
     return {
-      audioPodcast: `${import.meta.env.BASE_URL}audios/podcast-sentido-pertenencia.mp3`,
+      audioPodcast: `${import.meta.env.BASE_URL}audios/podcast_plan_accion.mp3`,
       reproduciendoPodcast: false,
       progresoAudio: 0,
       tiempoActual: '0:00',

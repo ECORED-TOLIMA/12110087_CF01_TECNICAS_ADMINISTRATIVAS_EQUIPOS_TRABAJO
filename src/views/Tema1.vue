@@ -75,28 +75,28 @@
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t1/img-04.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t1/img-04.svg", alt="").img60.m-auto
             h4.text-center Planeación
             p.mb-0 Es el punto de partida en el que se definen la misión y los objetivos del equipo. En ella se seleccionan las estrategias administrativas que guiarán el camino, se anticipan los escenarios y se determinan los recursos necesarios.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t1/img-05.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t1/img-05.svg", alt="").img60.m-auto
             h4.text-center Organización
             p.mb-0 En esta fase se distribuyen las tareas y se asignan las responsabilidades. Es el momento en que la estrategia se vuelve operativa, al definir la jerarquía, los roles y la coordinación entre los miembros para evitar el desorden.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t1/img-06.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t1/img-06.svg", alt="").img60.m-auto
             h4.text-center Dirección
             p.mb-0 Se enfoca en la ejecución a través de la influencia y la motivación. Es la etapa en la que el liderazgo y la comunicación asertiva logran que los colaboradores se comprometan con los planes establecidos.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t1/img-07.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t1/img-07.svg", alt="").img60.m-auto
             h4.text-center Control
             p.mb-0 Funciona como un sistema de medición para verificar si las estrategias están dando resultado. Permite comparar los resultados obtenidos con los planeados, lo que facilita la corrección oportuna de las desviaciones.
 
@@ -190,7 +190,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Concepto de equipo de trabajo
@@ -233,7 +233,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Componentes del equipo de trabajo
@@ -270,7 +270,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Etapas del desarrollo de un equipo
@@ -318,7 +318,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Roles dentro del equipo
@@ -356,7 +356,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Planteamiento de metas del equipo

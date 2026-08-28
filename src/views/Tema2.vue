@@ -32,28 +32,28 @@
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-02.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-02.svg", alt="").img60.m-auto
             h4.text-center Comprensión de la realidad
             p.mb-0 Brinda una visión clara y objetiva de cómo funciona el equipo.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-03.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-03.svg", alt="").img60.m-auto
             h4.text-center Anticipación
             p.mb-0 Permite prever riesgos y aprovechar las oportunidades del entorno.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-04.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-04.svg", alt="").img60.m-auto
             h4.text-center Sustento de las decisiones
             p.mb-0 Genera información confiable para decidir con criterio.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-05.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-05.svg", alt="").img60.m-auto
             h4.text-center Orientación estratégica
             p.mb-0 Conecta el análisis con el diseño de los planes de acción.
 
@@ -107,7 +107,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Métodos y técnicas de diagnóstico organizacional
@@ -137,7 +137,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Proceso de diagnóstico organizacional
@@ -251,7 +251,7 @@
         .col-lg-10.col-12
           .recurso-info-azul
             .recurso-info-azul__icono
-              img(src='@/assets/curso/temas/t2/img-18.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t2/img-18.svg', alt='')
 
             .recurso-info-azul__contenido
               p.mb-0 El diagnóstico organizacional se puede llevar a cabo en diversas situaciones: antes de implementar cambios significativos en la organización, en momentos de crisis o de declive en el desempeño, o como parte de una estrategia permanente de mejora continua.
@@ -260,7 +260,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Elementos del diagnóstico organizacional
@@ -345,7 +345,7 @@
 
               .col-lg-4.col-12.d-none.d-lg-block
                 figure.mb-0.cajon-variables-equipo__figure
-                  img(src='@/assets/curso/temas/t2/img-21.svg', alt='Imagen decorativa').cajon-variables-equipo__img
+                  img(src='@/assets/curso/temas/t2/img-21.svg', alt='').cajon-variables-equipo__img
 
       p.mb-4 Entre las variables internas, que dependen directamente de la organización y pueden gestionarse para mejorar el desempeño, se destacan las siguientes:
 
@@ -473,7 +473,7 @@
         .col-lg-4.col-md-7.col-12
           .recurso-titulo-equipo__contenedor
             .recurso-titulo-equipo__icono
-              img(src='@/assets/curso/temas/t1/icono.svg', alt='Icono decorativo')
+              img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
               h4.mb-0 Del diagnóstico a la estrategia: la FODA cruzada
@@ -487,28 +487,28 @@
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-25.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-25.svg", alt="").img60.m-auto
             h4.text-center Estrategias FO (ofensivas)
             p.mb-0 Combinan las fortalezas con las oportunidades para crecer. Ejemplo: un equipo con personal capacitado aprovecha la apertura de un nuevo mercado regional para ampliar sus servicios.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-26.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-26.svg", alt="").img60.m-auto
             h4.text-center Estrategias DO (de reorientación)
             p.mb-0 Superan las debilidades aprovechando las oportunidades. Ejemplo: un equipo con tecnología desactualizada accede a un programa de financiación para modernizar sus procesos.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-27.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-27.svg", alt="").img60.m-auto
             h4.text-center Estrategias FA (defensivas)
             p.mb-0 Emplean las fortalezas para enfrentar las amenazas. Ejemplo: un equipo con buena reputación responde a la llegada de competidores reforzando la calidad de su servicio.
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
           .crd.crd--grayGrad
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/t2/img-28.svg", alt="alt").img60.m-auto
+                img(src="@/assets/curso/temas/t2/img-28.svg", alt="").img60.m-auto
             h4.text-center Estrategias DA (de supervivencia)
             p.mb-0 Reducen las debilidades y evitan las amenazas. Ejemplo: un equipo con alta rotación establece incentivos para retener al personal ante un mercado laboral competitivo.
 
