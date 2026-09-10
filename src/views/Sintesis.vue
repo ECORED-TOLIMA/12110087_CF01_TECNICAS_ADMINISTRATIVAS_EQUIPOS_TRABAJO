@@ -2,9 +2,9 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p El componente formativo presenta el diagnóstico y la planificación estratégica como procesos articulados para fortalecer el desempeño de los equipos de trabajo. A partir de las estrategias administrativas y de las etapas del proceso administrativo, se abordan el diagnóstico organizacional, con sus tipos, características, variables y herramientas de análisis; el diseño del plan de acción, con la definición de objetivos, metas, actividades y recursos, y la evaluación mediante indicadores de gestión aplicables al área de talento humano, con el fin de orientar la toma de decisiones informadas y la mejora continua en las organizaciones.
-    p A continuación, se presenta el mapa conceptual que organiza de manera visual los ejes temáticos y las relaciones que los articulan:
-
+    p El componente formativo aborda el diagnóstico y la planificación estratégica como procesos articulados para fortalecer el desempeño de los equipos de trabajo. A partir de las estrategias administrativas, del proceso administrativo y del trabajo en equipo, desarrolla el diagnóstico organizacional, con sus tipos, características, variables y herramientas de análisis; el diseño del plan de acción, con la definición de objetivos, metas, actividades y recursos, y su evaluación mediante indicadores de gestión aplicables al área de talento humano, con el fin de orientar la toma de decisiones informadas y la mejora continua en las organizaciones.
+    p.mb-4 A continuación, se presenta el mapa conceptual que organiza de manera visual los ejes temáticos y las relaciones que los articulan: 
+    
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure

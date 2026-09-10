@@ -55,7 +55,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Fundamentos del diagnóstico organizacional ',
+        titulo: 'Fundamentos del diagnóstico organizacional',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -88,7 +88,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Diseño del plan de acción ',
+        titulo: 'Diseño del plan de acción',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -126,7 +126,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Evaluación del diagnóstico y planeación ',
+        titulo: 'Evaluación del diagnóstico y planificación',
         desarrolloContenidos: true,
         subMenu: [
           {

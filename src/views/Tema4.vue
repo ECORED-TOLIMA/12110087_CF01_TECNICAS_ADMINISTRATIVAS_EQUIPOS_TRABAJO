@@ -5,11 +5,11 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 4
-        h1 Evaluación del diagnóstico y planeación
+        h1 Evaluación del diagnóstico y planificación 
       
       .row.justify-content-center.mb-4
         .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
-          p La evaluación del diagnóstico y de la planeación es el proceso que permite verificar si las acciones emprendidas produjeron los resultados esperados. Se apoya en indicadores de gestión, que miden el avance del equipo y muestran si conviene mantener el rumbo o introducir ajustes.
+          p La evaluación del diagnóstico y de la planificación es el proceso que permite verificar si las acciones emprendidas produjeron los resultados esperados. Se apoya en indicadores de gestión, que miden el avance del equipo y muestran si conviene mantener el rumbo o introducir ajustes.
           .row.mb-0.recuadro-equipo-azul.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure.mb-0
@@ -52,7 +52,7 @@
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")(style="background-color: #FECE81 !important")
         .bloque-texto-g__img.img-bg-02
         .bloque-texto-g__texto.p-4
-          p.mb-0(data-aos="fade-down") Es una representación cuantitativa preferiblemente, establecida mediante la relación entre dos o más variables, a partir de la cual se registra, procesa y presenta información relevante con el fin de medir el avance o retroceso en el logro de un determinado objetivo en un periodo de tiempo determinado. Esta debe ser verificable objetivamente, la cual al ser comparada con algún nivel de referencia denominada línea base, resultado del diagnóstico, puede estar señalando una desviación sobre la cual se pueden implementar acciones correctivas o preventivas según el caso.
+          p.mb-0(data-aos="fade-down") Es una representación cuantitativa preferiblemente, establecida mediante la relación entre dos o más variables, a partir de la cual se registra, procesa y presenta información relevante con el fin de medir el avance o retroceso en el logro de un determinado objetivo en un periodo de tiempo determinado. Esta información debe ser objetivamente verificable y, al ser comparada con un nivel de referencia denominado línea base, obtenida a partir del diagnóstico, puede evidenciar una desviación frente a la cual se pueden implementar acciones correctivas o preventivas según el caso.
 
       .row.justify-content-start.mb-4.recurso-titulo-equipo
         .col-lg-4.col-md-7.col-12
@@ -356,7 +356,7 @@
           .recurso-preguntas-equipo__item
             .recurso-preguntas-equipo__numero
               span 1
-            h5.mb-0 Debe ser claro, preciso y auto explicativo. 
+            h5.mb-0 Debe ser claro, preciso y autoexplicativo. 
 
         .col-lg-3.col-md-6.col-12.mb-4
           .recurso-preguntas-equipo__item
@@ -393,7 +393,7 @@
               figure.mb-0
                 img(src='@/assets/curso/temas/t4/img-28.svg', alt='').recuadro-equipo-azul__icono
             .col-lg-10.col-12
-              p.mb-0 Finalmente, se definen qué aspectos son factores críticos de medición y por último se recomienda que el indicador corresponda tanto con los objetivos como con los estándares definidos por cada proceso. 
+              p.mb-0 Finalmente, se definen qué aspectos son factores críticos de medición y, por último, se recomienda que el indicador corresponda tanto con los objetivos como con los estándares definidos por cada proceso. 
           p Para que un indicador sea pertinente y sea apto para realizar mediciones del desempeño organizacional en los diferentes procesos que se adelantan, debe tener la siguiente estructura:
         .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
@@ -482,7 +482,7 @@
 
       .row.justify-content-center.mb-4
         .col-lg-9.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
-          p En este paso es garantizar la obtención de indicadores balanceados, que además de cumplir con los requerimientos técnicos establecidos se conviertan en una herramienta de información útil para todos los que lo utilicen. 
+          p En este paso se busca garantizar la obtención de indicadores balanceados, que además de cumplir con los requerimientos técnicos establecidos se conviertan en una herramienta de información útil para todos los que lo utilicen. 
           p Según lo citado en el informe sobre planificación estratégica de la CEPAL, los criterios para seleccionar los indicadores del sistema de medición son los siguientes: 
           .cajon.cajon.C05.px-4.py-3.mb-0
             ul.lista-ul--color.mb-0
@@ -503,7 +503,7 @@
                 | Estar dirigidos a prioridades que reflejen una gestión integrada en el ámbito de eficiencia, eficacia, calidad y economía.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                | Útil para el personal, clientes internos y externos, interesados, entre otros. 
+                | Ser útil para el personal, los clientes internos y externos y las demás partes interesadas, entre otros.
         .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t4/img-18.png', alt='')
@@ -601,7 +601,7 @@
                 img(src='@/assets/curso/temas/t4/img-21.png', alt='')
             .col-md-6
               p Expresa la magnitud que se espera alcanzar y la unidad en que se medirá, de modo que el resultado pueda compararse de manera objetiva con lo planeado. Su formulación exige tres elementos: la unidad de medida, que puede ser porcentaje, kilómetros, número de beneficiarios o días promedio; la línea base, que refleja la situación actual, y el valor esperado al final del período. Sin ellos la meta expresa una intención y no un compromiso verificable.
-              p #[em #[b Ejemplo:]] la expresión “mejorar la cobertura del programa de vivienda rural” no constituye una meta medible, porque no precisa cuánto debe mejorar. La formulación correcta es “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados”. En ella el porcentaje es la unidad de medida, el 70 % corresponde a la línea base y el 85 % al valor esperado.
+              p #[b Ejemplo:] la expresión “mejorar la cobertura del programa de vivienda rural” no constituye una meta medible, porque no precisa cuánto debe mejorar. La formulación correcta es “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados”. En ella el porcentaje es la unidad de medida, el 70 % corresponde a la línea base y el 85 % al valor esperado.
 
         .py-3.py-md-4(titulo="B. Plazo de cumplimiento")
           .row
@@ -610,7 +610,7 @@
                 img(src='@/assets/curso/temas/t4/img-22.png', alt='')
             .col-md-6
               p Delimita la meta en el tiempo mediante dos referencias: la fecha tope en que debe alcanzarse el valor propuesto y la periodicidad con que se medirá el avance, que puede ser bimestral, trimestral, anual o quinquenal. La fecha tope permite emitir el juicio final sobre el cumplimiento; la periodicidad indica cada cuánto se recolectan los datos y se reporta el resultado, lo que hace posible detectar las desviaciones cuando todavía existe margen suficiente para corregirlas.
-              p #[em #[b Ejemplo:]] la meta del literal anterior se completa así: “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados, al 31 de diciembre de 2026, con medición trimestral del avance”. La fecha tope establece el momento de la evaluación final y las mediciones de marzo, junio y septiembre permiten verificar si el ritmo de ejecución conduce al resultado previsto.
+              p #[b Ejemplo:] la meta del literal anterior se completa así: “aumentar la cobertura del programa de vivienda rural del 70 % al 85 % de los hogares focalizados, al 31 de diciembre de 2026, con medición trimestral del avance”. La fecha tope establece el momento de la evaluación final y las mediciones de marzo, junio y septiembre permiten verificar si el ritmo de ejecución conduce al resultado previsto.
 
       .row.justify-content-center.mb-4
         .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -624,7 +624,7 @@
                 img(src='@/assets/curso/temas/intro/img-02.svg', alt='')
             .col-lg-10.col-12.mb-4
               p Una vez surtidos estos pasos, se recomienda consolidar la información en una hoja metodológica. Este instrumento reúne en un solo formato los factores que deben documentarse por cada indicador y facilita su consulta, actualización y verificación posterior.
-            p La hoja metodológica se materializa en un formato conocido como ficha técnica del indicador. Este documento estandariza la medición: registra en un solo lugar la información que permite a cualquier persona de la entidad comprender qué mide el indicador, cómo se calcula y quién responde por él. Su finalidad no consiste en documentar para cumplir un requisito; consiste en asegurar que el indicador se interprete y se calcule siempre de la misma forma, con independencia de quién lo consulte o de los cambios de personal. El resultado esperado es doble: series de datos comparables en el tiempo y decisiones de gestión sustentadas en información verificable. Para lograrlo, la ficha reúne ocho componentes, que se explican a continuación:
+            p La hoja metodológica se materializa en un formato conocido como ficha técnica del indicador. Este documento estandariza la medición: registra en un solo lugar la información que permite a cualquier persona de la entidad comprender qué mide el indicador, cómo se calcula y quién responde por él. Su finalidad no consiste en documentar para cumplir un requisito; consiste en asegurar que el indicador se interprete y se calcule siempre de la misma forma, con independencia de quién lo consulte o de los cambios de personal. El resultado esperado es doble: series de datos comparables en el tiempo y decisiones de gestión sustentadas en información verificable. Para lograrlo, la ficha reúne ocho componentes, que se explican a continuación: 
 
       .row.BG02.justify-content-center.px-md-5.px-4.mb-4(data-aos="flip-up")
         .col.col-lg-10.col-12
@@ -656,7 +656,7 @@
                 span #[b Responsables:] personas o áreas encargadas de calcular, analizar y reportar el resultado. 
 
           .cajon.cajon.C04.color-primario.px-4.py-3
-            p.mb-0(data-aos="fade-down") La ficha técnica es el documento que estandariza la medición de un indicador. En ella se registran los elementos que hacen posible su lectura y su cálculo: el nombre, la definición u objetivo, la fórmula, la unidad de medida, la periodicidad, las fuentes de datos, las metas y los rangos de tolerancia. Su finalidad no consiste en documentar para cumplir un requisito; consiste en asegurar que el indicador se interprete y se calcule siempre de la misma forma, con independencia de quién lo consulte o de los cambios de personal. El resultado esperado es doble: series de datos comparables en el tiempo y decisiones de gestión sustentadas en información verificable.
+            p.mb-0(data-aos="fade-down") Los ocho componentes descritos conforman una estructura integral que garantiza la objetividad y la consistencia de la medición. Documentarlos de forma sistemática en la ficha técnica convierte cada indicador en una herramienta confiable de gestión, válida con independencia de quién la consulte o administre. 
 
       p.mb-4 La siguiente tabla presenta el modelo de ficha técnica. Además de los ocho componentes descritos, desglosa la fórmula en numerador y denominador; asimismo, incorpora dos campos: el rango de tolerancia, que fija los niveles excelente, aceptable e inaceptable, y el análisis de la medición, donde se interpreta el resultado.
 
@@ -696,7 +696,7 @@
 
                 tr(data-aos="fade-right")
                   td Fuente de los datos
-                  td Se definen los medios de verificación, instrumentos o información base para extraer la información.
+                  td Se definen los medios de verificación, instrumentos o fuentes de información necesarios para obtener los datos.
 
                 tr(data-aos="fade-right")
                   td.tabla-ficha-indicador__label Unidad de medida
@@ -838,43 +838,43 @@
         .col.col-lg-10.col-12.mb-md-0.order-lg-1.order-2
           LineaTiempoD.color-acento-botones.especial.mb-4
             .row(numero="1" titulo="Índice de rotación de personal.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide la proporción de trabajadores que se desvinculan durante un período respecto del total de la planta. Es descendente: un valor alto sugiere dificultades de clima laboral, de selección o de compensación.
                 p.mb-0 Ejemplo: en una empresa con 200 trabajadores se retiran 16 durante el semestre. El índice es (16 ÷ 200) × 100 = 8 %.
             .row(numero="2" titulo="Tiempo promedio de contratación.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide los días transcurridos entre la apertura de una vacante y la vinculación efectiva del candidato. Es descendente: cuantos menos días, más ágil resulta el proceso de selección.
                 p.mb-0 Ejemplo: en el trimestre se cubrieron cinco vacantes en 40, 35, 50, 30 y 45 días. El promedio es 200 ÷ 5 = 40 días.
             .row(numero="3" titulo="Índice de ausentismo.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide la proporción de días no laborados frente a los días programados en el período. Es descendente.
                 p.mb-0 Ejemplo: 200 trabajadores por 20 días equivalen a 4.000 días programados; se registran 120 días de ausencia. El índice es (120 ÷ 4.000) × 100 = 3 %.
             .row(numero="4" titulo="Índice de satisfacción del personal.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide el grado de conformidad de los trabajadores con su labor, su equipo y las condiciones de trabajo. Se obtiene por encuesta con escala valorativa. Es ascendente.
                 p.mb-0 Ejemplo: de 180 encuestas aplicadas, el promedio es 4,2 sobre 5, equivalente al 84 % de satisfacción.
             .row(numero="5" titulo="Índice de compromiso.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide la disposición del trabajador a esforzarse por los objetivos de la organización y su intención de permanecer en ella. Es ascendente. Se diferencia de la satisfacción: alguien puede estar conforme con sus condiciones y, aun así, mostrar poco compromiso con los resultados.
                 p.mb-0 Ejemplo: 144 de 180 encuestados manifiestan intención de permanecer al menos dos años más. El índice es (144 ÷ 180) × 100 = 80 %.
             .row(numero="6" titulo="Índice de productividad por trabajador.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Relaciona el resultado obtenido con el número de trabajadores que lo generaron. Es ascendente.
                 p.mb-0 Ejemplo: el área produjo 6.000 unidades con 50 trabajadores. La productividad es 6.000 ÷ 50 = 120 unidades por trabajador.
             .row(numero="7" titulo="Índice de capacitación.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide la proporción de trabajadores que participaron en actividades de formación durante el período. Es ascendente.
                 p.mb-0 Ejemplo: 150 de 200 trabajadores asistieron al plan anual de formación. El índice es (150 ÷ 200) × 100 = 75 %.
             .row(numero="8" titulo="Índice de promoción interna.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide la proporción de vacantes cubiertas con personal de la propia organización. Es ascendente.
                 p.mb-0 Ejemplo: de 20 vacantes del año, 12 se cubrieron internamente. El índice es (12 ÷ 20) × 100 = 60 %.
             .row(numero="9" titulo="Índice de diversidad e inclusión.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide la participación de los distintos grupos poblacionales en la planta de personal y en los cargos de dirección. Es ascendente.
                 p.mb-0 Ejemplo: 8 de 25 cargos directivos son ocupados por mujeres. La participación femenina en la dirección es del 32 %.
             .row(numero="10" titulo="Índice de satisfacción del cliente interno.")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Mide la percepción de las demás áreas sobre los servicios que presta talento humano, como selección, nómina, bienestar y formación. Es ascendente.
                 p.mb-0 Ejemplo: en la encuesta trimestral, 68 de 80 líderes califican el servicio como satisfactorio. El índice es (68 ÷ 80) × 100 = 85 %.
 

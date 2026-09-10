@@ -74,7 +74,10 @@ figcaption
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+  color: $color-primario !important;
+
+.banner-interno__titulo__icono
+  background-color: $color-secundario
 
 .banner-principal
   .banner-principal__row
@@ -733,6 +736,24 @@ figcaption
   span
     color: #000 !important
     font-weight: bold
+
+@media (max-width: 575.98px)
+  .linea-tiempo-d.color-acento-botones.especial
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__content__title
+        display: flex !important
+        align-items: center !important
+        min-height: 50px !important
+        padding-top: .85rem !important
+        padding-bottom: .55rem !important
+        margin-bottom: .65rem !important
+
+        span
+          display: block !important
+          line-height: 1.25 !important
+          white-space: normal !important
+          margin: 0 !important
+          padding: 0 !important
 
 .recurso-info-azul
   width: 100%

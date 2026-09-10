@@ -64,8 +64,8 @@
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.1 Concepto y tipos de diagnóstico
 
-      p Se entiende por diagnóstico organizacional el proceso sistemático de análisis mediante el cual se examina la situación actual de una organización o de un equipo de trabajo, con el fin de identificar sus fortalezas, debilidades, oportunidades y amenazas. A partir de esa información, se obtienen bases confiables para orientar las decisiones estratégicas y sustentar la mejora continua
-      p.mb-4 El diagnóstico se clasifica según su alcance, y cada tipo responde a necesidades particulares que se seleccionan de acuerdo con los objetivos del análisis:
+      p Se entiende por diagnóstico organizacional el proceso sistemático de análisis mediante el cual se examina la situación actual de una organización o de un equipo de trabajo, con el fin de identificar sus fortalezas, debilidades, oportunidades y amenazas. A partir de esa información, se obtienen bases confiables para orientar las decisiones estratégicas y sustentar la mejora continua.
+      p.mb-4 El diagnóstico se clasifica según su alcance, y cada tipo responde a necesidades particulares y se selecciona de acuerdo con los objetivos del análisis: 
 
       .tarjeta--container.row.mb-4
         .col-md.tarjeta.color-primario.verde.p-5
@@ -99,7 +99,7 @@
         .col.col-lg-8.col-12.order-lg-2.order-2
           .row.mb-0
             .col-lg-12.col-12
-              p.mb-4 Según su enfoque metodológico, el diagnóstico puede ser cualitativo, cuantitativo o mixto: el cualitativo comprende percepciones y comportamientos; el cuantitativo se basa en datos medibles; y el mixto combina ambos para lograr una visión más completa y precisa de la realidad del equipo.
+              p.mb-4 Según su enfoque metodológico, el diagnóstico puede ser cualitativo, cuantitativo o mixto: el diagnóstico cualitativo analiza percepciones y comportamientos; el cuantitativo se basa en datos medibles; y el mixto combina ambos para lograr una visión más completa y precisa de la realidad del equipo.
             .cajon.cajon.C03.px-4.py-4.mb-4
               p.mb-0 La elección del tipo de diagnóstico depende de la situación que se desea abordar y de los recursos disponibles. Comprender estas modalidades permite al equipo seleccionar el enfoque más pertinente y aprovechar mejor la información obtenida. 
 
@@ -221,22 +221,22 @@
         .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
           LineaTiempoD.color-acento-botones.especial.mb-4
             .row(numero="1" titulo="Analítico y evaluativo")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Examina el funcionamiento de la empresa en sus diferentes niveles estructura, procesos, recursos humanos, para identificar brechas de desempeño y causas raíz de problemas.
             .row(numero="2" titulo="Integral y multidimensional")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 Abarca el diagnóstico funcional, comunicación, estructura y cultural liderazgo, valores. Se analizan factores internos y externos.
+              .col-12.mb-0
+                p.mb-0 Abarca el diagnóstico funcional, comunicación, estructura, liderazgo y valores. Se analizan factores internos y externos.
             .row(numero="3" titulo="Orientado al cambio")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 No solo detecta fallas, sino que busca oportunidades de mejora y proporciona información para diseñar planes de acción efectivos.
             .row(numero="4" titulo="Participativo")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Involucra a los miembros de la organización en la recolección de información mediante entrevistas, encuestas, grupos focales para obtener una visión real.
             .row(numero="5" titulo="Sistemático y periódico")
-              .col-12.mb-4.mb-md-0
-                p.mb-0 Se basa en métodos estructurados y se recomienda realizarlo de forma periódica para evaluar el desarrollo y adaptación de la empresa ante cambios.
+              .col-12.mb-0
+                p.mb-0 Se basa en métodos estructurados y se recomienda realizarlo de forma periódica para evaluar el desarrollo y la adaptación de la empresa ante cambios.
             .row(numero="6" titulo="Identificación de fortalezas y debilidades")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Permite a los líderes capitalizar ventajas competitivas y subsanar áreas críticas para la eficiencia operativa.
         .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
@@ -372,7 +372,7 @@
               li.mb-0 
                 .lista-ol--cuadro__vineta
                   span 5
-                | Recursos financieros y tecnológicos: corresponde a la capacidad económica y a la tecnología disponible para el desarrollo de las actividades.
+                | Recursos financieros y tecnológicos: corresponden a la capacidad económica y a la tecnología disponible para el desarrollo de las actividades.
 
       p.mb-4 En conjunto, estas variables internas determinan la manera en que el equipo se organiza, se relaciona y produce resultados. Analizarlas de forma articulada permite reconocer las fortalezas que conviene potenciar y las debilidades que se deben corregir para mejorar el desempeño del equipo de trabajo.
 
@@ -415,22 +415,22 @@
         .col.col-lg-6.col-12.order-lg-2.order-2
           LineaTiempoD.color-acento-botones.especial.mb-4
             .row(numero="1" titulo="Análisis FODA")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Identifica las fortalezas, oportunidades, debilidades y amenazas de la organización, y combina el análisis interno con el del entorno. Por ejemplo, una panadería de Bucaramanga puede reconocer como fortaleza la calidad de su pan y como amenaza la llegada de nuevas cadenas al barrio.
             .row(numero="2" titulo="Modelo 7S de McKinsey")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Analiza la alineación entre siete elementos internos: estrategia, estructura, sistemas, valores compartidos, estilo, personal y habilidades. Por ejemplo, una empresa de servicios en Cali puede revisar si su estilo de liderazgo y las habilidades de su personal responden a su estrategia de crecimiento.
             .row(numero="3" titulo="Análisis PESTEL")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Evalúa los factores externos que afectan a la organización: políticos, económicos, sociales, tecnológicos, ecológicos y legales. Por ejemplo, una empresa agrícola del Meta puede analizar cómo una nueva normativa ambiental y las variaciones del clima inciden en su producción y en sus costos.
             .row(numero="4" titulo="Cadena de valor de Porter")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Examina las actividades internas de la organización para identificar dónde se genera valor y dónde se puede mejorar. Por ejemplo, un taller de confecciones en Pereira puede revisar cada etapa, desde el corte hasta la entrega, para reducir tiempos y desperdicios.
             .row(numero="5" titulo="Encuestas y entrevistas")
-              .col-12.mb-4.mb-md-0
+              .col-12.mb-0
                 p.mb-0 Recogen información directa sobre las percepciones y las necesidades de las personas para medir el clima y la cultura. Por ejemplo, una alcaldía municipal de Boyacá puede aplicar encuestas de satisfacción a sus funcionarios para conocer el ambiente laboral y detectar oportunidades de mejora.
 
-      p La selección de la herramienta adecuada depende del objetivo del diagnóstico y del tipo de información que se busca. Su aplicación debe ser rigurosa y ética para que los resultados sean confiables. Empleados de este modo, estos instrumentos convierten los datos en conocimiento útil y permiten profundizar en el estudio del equipo desde dos perspectivas complementarias, la interna y la externa, que se desarrollan en el siguiente apartado.
+      p La selección de la herramienta adecuada depende del objetivo del diagnóstico y del tipo de información que se busca. Su aplicación debe ser rigurosa y ética para que los resultados sean confiables. Utilizadas de este modo, estos instrumentos convierten los datos en conocimiento útil y permiten profundizar en el estudio del equipo desde dos perspectivas complementarias, la interna y la externa, que se desarrollan en el siguiente apartado.
 
       Separador
 
@@ -476,11 +476,11 @@
               img(src='@/assets/curso/temas/t1/icono.svg', alt='')
 
             .recurso-titulo-equipo__texto
-              h4.mb-0 Del diagnóstico a la estrategia: la FODA cruzada
+              h4.mb-0 Del diagnóstico a la estrategia: la matriz FODA cruzada
 
             .recurso-titulo-equipo__barra
 
-      p.mb-4 Identificar los cuatro elementos de la FODA es solo el primer paso; su verdadero valor aparece cuando se cruzan entre sí para generar estrategias. Al relacionar los factores internos con los externos, el equipo transforma el diagnóstico en decisiones concretas y define cómo actuar en cada situación. De ese cruce surgen cuatro tipos de estrategias:
+      p.mb-4 Identificar los cuatro elementos elementos de la matriz FODA es solo el primer paso; su verdadero valor aparece cuando se cruzan entre sí para generar estrategias. Al relacionar los factores internos con los externos, el equipo transforma el diagnóstico en decisiones concretas y define cómo actuar en cada situación. De ese cruce surgen cuatro tipos de estrategias:
 
       .row.justify-content-center.mb-4(data-aos="flip-down")
         .col-xl-3.col-lg-8.mb-4.mb-xl-5
@@ -518,7 +518,7 @@
             img(src='@/assets/curso/temas/t2/img-29.png', alt='')
         .col.col-lg-9.col-12.order-lg-2.order-2
           .row.mb-0
-            p De esta manera, la FODA deja de ser una simple lista y se convierte en una herramienta de planeación: cada cruce señala una línea de acción posible y ayuda al equipo a priorizar sus decisiones. Comprender estas estrategias permite pasar del análisis a la intención de actuar con un propósito claro.
+            p De esta manera, la matriz FODA deja de ser una simple lista y se convierte en una herramienta de planeación: cada cruce señala una línea de acción posible y ayuda al equipo a priorizar sus decisiones. Comprender estas estrategias permite pasar del análisis a la intención de actuar con un propósito claro.
             .cajon.cajon.C02.px-4.py-4.mb-4
               p.mb-0 El diagnóstico interno y externo, sintetizado en la matriz FODA, ofrece al equipo una lectura completa y realista de su situación. Más que un ejercicio técnico, constituye un proceso de reflexión colectiva en el que participan sus integrantes y se contrastan distintas miradas. Cuando se realiza con rigor y honestidad, permite reconocer no solo los problemas, sino también las capacidades y los recursos con que cuenta el equipo para enfrentarlos.
             .col-lg-auto.d-none.d-lg-block

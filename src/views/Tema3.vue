@@ -47,9 +47,9 @@
           figure
             img(src='@/assets/curso/temas/intro/img-02.svg', alt='')
         .col.col-lg-11.col-12.order-lg-2.order-2
-          p.mb-0(data-aos="fade-down") Estos elementos convierten el plan de acción en una guía práctica y verificable, articulan lo que se quiere lograr: con quién, cómo, cuándo y con qué recursos se hará. Su definición precisa evita la improvisación y facilita el seguimiento, de modo que el plan se mantenga como una herramienta viva de gestión y no como un documento estático.
+          p.mb-0(data-aos="fade-down") Estos elementos convierten el plan de acción en una guía práctica y verificable, articulan lo que se quiere lograr, con quién, cómo, cuándo y con qué recursos se hará. Su definición precisa evita la improvisación y facilita el seguimiento, de modo que el plan se mantenga como una herramienta viva de gestión y no como un documento estático.
 
-      p.mb-4 La comprensión del diseño del plan de acción se fortalece a través del siguiente recurso de audio, en el que se explican de manera clara el momento en que se elabora, los seis elementos que lo componen y las condiciones que aseguran su cumplimiento:
+      p.mb-4 La comprensión del diseño del plan de acción se fortalece a través del siguiente pódcast, en el que se explican de manera clara el momento en que se elabora, los seis elementos que lo componen y las condiciones que aseguran su cumplimiento:
 
       .row.justify-content-center.mb-4
         .col-lg-10.col-12
@@ -60,7 +60,7 @@
             .podcast-recurso__contenido
               .podcast-recurso__audio
                 .podcast-recurso__info
-                  h5.mb-1 Diseño del plan de acción
+                  h5.mb-1 El plan de acción: del diagnóstico a las decisiones concretas.
                   span {{ tiempoActual }} / {{ duracionAudio }}
 
                 .podcast-recurso__barra(@click="cambiarTiempoAudio")
@@ -252,7 +252,7 @@
             ul.lista-ul--color.mb-0
               li 
                 <i class="fa-solid fa-certificate"></i>
-                span #[b Entrevistas y encuestas:] Recursos humanos: las personas que ejecutan las actividades, con sus competencias y responsabilidades.
+                span #[b Recursos humanos:] las personas que ejecutan las actividades, con sus competencias y responsabilidades.
               li 
                 <i class="fa-solid fa-certificate"></i>
                 span #[b Recursos materiales:] los insumos, las herramientas y los equipos necesarios para el trabajo.
@@ -264,7 +264,7 @@
                 span #[b Recursos tecnológicos:] las plataformas, los programas y los medios digitales que apoyan la ejecución.
 
       p A cada recurso se le asigna un tiempo de ejecución y un responsable, de modo que el plan quede completo y listo para llevarse a la práctica.
-      p.mb-4 La implementación y ejecución del plan de acción implica llevar a la práctica lo previamente planificado, asegurando que cada actividad y tarea se desarrolle conforme a lo establecido. En esta etapa es fundamental la coordinación entre los miembros del equipo, la asignación clara de responsabilidades y la disponibilidad oportuna de los recursos. 
+      p.mb-4 La ejecución del plan de acción implica llevar a la práctica lo previamente planificado, asegurando que cada actividad y tarea se desarrolle conforme a lo establecido. En esta etapa es fundamental la coordinación entre los miembros del equipo, la asignación clara de responsabilidades y la disponibilidad oportuna de los recursos. 
 
       .row.justify-content-center.mb-4
         .col-lg-10.col-12
@@ -395,7 +395,7 @@
                 span #[b Relevantes:] responden a las necesidades identificadas en el diagnóstico y aportan a la estrategia.
               li 
                 <i class="fa-solid fa-certificate"></i>
-                span #[b Definidos en el tiempo:] establecen un plazo concreto para su consecución
+                span #[b Definidos en el tiempo:] establecen un plazo concreto para su consecución.
 
       .row.justify-content-center
         .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -488,7 +488,7 @@
         .col-lg-10
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Tabla 2.
-            span Comparativo de mejores #[em softwares] de gestión de tareas
+            span Comparativo de mejores #[em software] de gestión de tareas
           .tabla-a.color-acento-contenido.mb-4.tabla-plan-accion.tabla-softwares
             table
               thead
@@ -639,7 +639,7 @@
                     span #[b Automatización:] crear flujos de trabajo automatizados para tareas repetitivas, como notificaciones, actualizaciones de estado o asignaciones, ahorrando tiempo y reduciendo errores manuales.
                   li 
                     i.lista-ul__vineta
-                    span #[b Integración:] conectar el #[em software] con otras herramientas y servicios utilizados por el equipo, como almacenamiento en la nube, correo electrónico o aplicaciones de comunicación, creando un ecosistema de trabajo más eficiente y centralizado
+                    span #[b Integración:] conectar el #[em software] con otras herramientas y servicios utilizados por el equipo, como almacenamiento en la nube, correo electrónico o aplicaciones de comunicación, creando un ecosistema de trabajo más eficiente y centralizado.
                   li 
                     i.lista-ul__vineta
                     span #[b Interfaz:] diseño intuitivo y fácil de usar que permite a los usuarios navegar y utilizar las funciones del #[em software] de manera eficiente, con una curva de aprendizaje mínima y una experiencia de usuario optimizada.

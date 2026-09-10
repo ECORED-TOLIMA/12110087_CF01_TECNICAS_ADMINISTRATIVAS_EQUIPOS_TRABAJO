@@ -116,7 +116,7 @@
             .cajon.cajon.C01.px-4.py-4.mb-4
               p.mb-0 La comunicación asertiva se posiciona como el lubricante que permite que los engranajes de la estrategia funcionen sin fricciones. No se trata solo de transmitir información, sino de establecer canales bidireccionales donde el #[em feedback] sea constante y constructivo. Las organizaciones líderes utilizan reuniones de sincronización breve y plataformas digitales para asegurar que todos estén en la misma página, eliminando los silos informativos que suelen generar malentendidos y retrasos operativos.
             .col-lg-12.col-12
-              p Seguida por la optimización de la estructura de roles es vital para evitar la duplicidad de funciones y el agotamiento laboral. Una estrategia administrativa sólida define con exactitud qué se espera de cada rol, pero manteniendo la flexibilidad suficiente para que los miembros colaboren en proyectos transversales. Esta claridad reduce el estrés organizacional y permite que el talento humano se enfoque en actividades de alto valor, potenciando la especialización sin perder de vista la visión global.
+              p La optimización de la estructura de roles es vital para evitar la duplicidad de funciones y el agotamiento laboral. Una estrategia administrativa sólida define con exactitud qué se espera de cada rol, pero manteniendo la flexibilidad suficiente para que los miembros colaboren en proyectos transversales. Esta claridad reduce el estrés organizacional y permite que el talento humano se enfoque en actividades de alto valor, potenciando la especialización sin perder de vista la visión global.
             
       p.mb-4 A estas prácticas se suman otras estrategias administrativas que fortalecen el desempeño del equipo:
 
@@ -125,7 +125,7 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--C01")
             .row(titulo="Gestión del desempeño")
               .col-12.mb-0.mb-md-0
-                p.mb-0 Consiste en medir los resultados del equipo con indicadores clave (KPI) para reconocer logros y detectar oportunidades de mejora, más que para sancionar. Por ejemplo, una cooperativa de caficultores del Huila puede monitorear los kilos recolectados por jornada y la calidad del grano, y ajustar sus procesos a tiempo para sostener la productividad y el ingreso de sus asociados.
+                p.mb-0 Consiste en medir los resultados del equipo con indicadores clave de desempeño (KPI) para reconocer logros y detectar oportunidades de mejora, más que para sancionar. Por ejemplo, una cooperativa de caficultores del Huila puede monitorear los kilos recolectados por jornada y la calidad del grano, y ajustar sus procesos a tiempo para sostener la productividad y el ingreso de sus asociados.
             .row(titulo="Aprendizaje organizacional")
               .col-12.mb-0.mb-md-0
                 p.mb-0 Es el fomento de la capacitación continua para que las competencias del equipo no queden obsoletas frente a los cambios del entorno. Por ejemplo, una empresa de confecciones en Medellín puede programar formación periódica en nuevas máquinas y normas de calidad, de modo que sus operarios actualicen sus habilidades y respondan a las exigencias del mercado textil.
@@ -348,7 +348,7 @@
             .tarjeta.color-primario
               .p-4
                 h4.text-center Roles mentales
-                p.text-center.mb-0 Centrados en las ideas y el análisis, como aportar creatividad, evaluar opciones y especializar el conocimiento.
+                p.text-center.mb-0 Centrados en las ideas y el análisis, como aportar creatividad, evaluar opciones y aportar conocimiento especializado.
 
       p.mb-4 Un equipo equilibrado combina los tres tipos de roles. El exceso de un rol o la ausencia de otro puede generar desorganización, conflictos o falta de innovación; por ello, el administrador procura que los perfiles se complementen.
 
